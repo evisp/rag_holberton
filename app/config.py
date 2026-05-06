@@ -13,7 +13,14 @@ PROCESSED_PATH = BASE_DIR / "data" / "processed"
 # Google AI
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "models/gemini-embedding-001")
-LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.0-flash")
+
+LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.5-flash-lite")
+
+LLM_FALLBACK_CHAIN = [
+    "gemini-2.5-flash-lite",  # 1000/day, 15 RPM — primary
+    "gemini-2.5-flash",       # 250/day,  10 RPM — fallback 1
+    "gemini-2.0-flash",       # 100/day,   5 RPM — fallback 2
+]
 
 # Chunking
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 512))
