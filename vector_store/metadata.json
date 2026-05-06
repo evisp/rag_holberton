@@ -1,0 +1,821 @@
+[
+  {
+    "chunk_id": "AcademicStanding.md::chunk_0",
+    "filename": "AcademicStanding.md",
+    "title": "Academicstanding",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/AcademicStanding.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Holberton strives to be a supportive learning space with clear expectations. This is an intense program and in order to maintain an equitable and cooperative space, you need to know of the protocol and resources surrounding your performance.\nThe academic score at Holberton is monitored throughout the year with benchmarks set at the midnight between Sunday and Monday local time after each trimester end. In other words, the hardline expectation of performance is at the 3 month, 6 month, and 9 month marks of your Foundations and Specialization years. This composite score is an average between each track of the curriculum - social, technical tracks, and professionalism.\nAlthough some of these tracks aren’t technical in nature, they are still considered to be part of the academics of Holberton, since their utilization is inherent to our students’ success.\nHowever, given the nature of Specializations, the tracks involved are only technical - both their chosen specialization as well as the \"Interview Preparation\" track.\nThe overall average must be 80% to progress in the program; failure to achieve this will prevent a student from progressing through the program - however, they may potentially be offered an opportunity to repeat up to one additional time per trimester."
+  },
+  {
+    "chunk_id": "CampusTransfers.md::chunk_0",
+    "filename": "CampusTransfers.md",
+    "title": "Campustransfers",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CampusTransfers.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Campus Transfer Overview\nWe love that this community spans time zones, cultures, and countries, and we want to foster the opportunity to collaborate as much as possible. \nAt this given time, it is possible to transfer within the foundational part of the program depending on the campuses, if you have an 80% trimester average or higher, and if the transfer takes place during the break.\nIf you would like to complete your specialization at another campus please speak with your campus director and they’ll help you explore options."
+  },
+  {
+    "chunk_id": "Cheating-Examples.md::chunk_0",
+    "filename": "Cheating-Examples.md",
+    "title": "Cheating Examples",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Cheating-Examples.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Examples of Cheating:\nYou directly copy any line of code from another student or code seen on Github, a website, or text.\nYou use another person’s source code for reference while working on your own.\nYou watch another student write code and then go and write your own, and vice versa.\nAnother student tells you how you should write your code and vice versa.\nYou use open source software in your project and don’t cite it in your readme (this shouldn’t come up in the vast majority of the Foundations curriculum). \nHow to Collaborate without Cheating:\nDiscuss the day’s readings/concepts with your peers in order to deepen your understanding.\nDiscuss conceptual approaches to a project, e.g. “I think a recursive approach to this problem would add too much time complexity”.\nWhiteboard, whiteboard, whiteboard. Feel free to present your approach to a problem on a whiteboard. This does not mean directly writing out your code. Use diagrams and pseudocode to share your approach to a problem.\nIf you get stuck, follow the Framework.\nMake sure that once you’re ready to code, you find a space where you won’t find yourself tempted to glance at another student’s screen or talk about what you’re writing."
+  },
+  {
+    "chunk_id": "Cheating-Overview.md::chunk_0",
+    "filename": "Cheating-Overview.md",
+    "title": "Cheating Overview",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Cheating-Overview.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Cheating of any kind goes against the spirit and purpose of your time here at Holberton, and will absolutely not be tolerated. Taking the work of others and presenting it as your own not only reflects poorly on you as a student but on Holberton as an institution. If you are caught cheating (we have an extremely good system for identifying plagiarism), you will be asked to meet with staff and potentially face expulsion.\nIf you follow the Holberton Framework, are patient and kind to yourself, and put in the time, you will be successful without resorting to plagiarizing the work of others. Here are a couple of points to keep in mind when working on your projects:\nYou should not look at others’ code (either locally or on the web) for inspiration until after you have completed the work yourself, and you are certain that you understand the concepts outlined in the task/project. \nIf you read it before writing your own version, not only are you cheating, but you will lock yourself into thinking about the problem in the way you have already seen it done. Parts of the other person’s code will likely stick in your memory and wind up in your own codebase, which qualifies as plagiarism."
+  },
+  {
+    "chunk_id": "ChiefAudio_VideoOfficer.md::chunk_0",
+    "filename": "ChiefAudio_VideoOfficer.md",
+    "title": "Chiefaudio Videoofficer",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ChiefAudio_VideoOfficer.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "See also Chief Officer Duties\nDuring the week, the Audio/Video Chief Officer will be in charge of setting up the Video/Sound system for the following:\nStand-up meetings: every day at 11:30 AM\nMeetup events (if no one volunteers to do this for meetups, it will default to ChiefA/V Officer)\nThe Chief A/V Officer should meet with the student scheduled for the position next to brief them on how to set up all A/V equipment."
+  },
+  {
+    "chunk_id": "ChiefFeedbackOfficerDuty.md::chunk_0",
+    "filename": "ChiefFeedbackOfficerDuty.md",
+    "title": "Chieffeedbackofficerduty",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ChiefFeedbackOfficerDuty.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "At every Daily stand up, there will be some number (1-3) of Speaker of the Day presenters. Any student who is assigned to be Feedback Officer will need to post their manual review (below) in the #standup channel as a reply to each speaker's presentation link. \nIf there are no Speaker of the Day presenters, then the Feedback Officer has no duty to provide feedback.\nIf a Feedback Officer does not provide their manual review within 3 hours of standup, then they will receive -5% on their professional score. \n This is the manual review criteria:\nPresentation Delivery:\nWas the Presenter audible?\nDid the Presenter speak clearly and at an understandable pace?\nWere there minimal filler words, like \"Uhm\", \"uhh\", \"like\"?\nDid the Presenter regularly make eye contact with the audience?\nWas the Presenter well-positioned onstage?\nDid the Presenter’s posture demonstrate confidence?\nWas the Presenter dressed professionally?\nDid the presentation utilize the 3min? (it was not too long, or too short)\nWas the speaker energetic?\nDid the speaker engage with the audience with a question?\nWhat was one thing the Presenter could have done better for their presentation delivery?\nContent:\nWas the topic one of the templated options? (Brief History of Myself, Working as a __ at ___, or a Technical Topic)\nDid the presentation slides include appropriate and relevant photos/diagrams?\nDid you understand the speaker’s connection to their chosen topic?\nWas the information presented in a clear and organized way?\nWhat was one thing the Presenter could have done better for their presentation content?"
+  },
+  {
+    "chunk_id": "ChiefKitchenOfficer.md::chunk_0",
+    "filename": "ChiefKitchenOfficer.md",
+    "title": "Chiefkitchenofficer",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ChiefKitchenOfficer.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Also see Chief Officer Duties\nAs Chief Kitchen Officer, your overall responsibility is to make sure that the kitchen is maintained to a high standard. Below are pictures showing what the kitchen should look like most of the day, and, especially, at the end of each day. It is expected that you will need to delegate tasks to others to help maintain the kitchen.\nHere is the list of duties that the Chief Kitchen Officer should be aware of:\nDishes must be dried, and put away in the designated space in the cupboards.\nThe sink must be kept clean and clear of food particles and liquid stains such as juice or coffee.\nMicrowave must be cleaned  both inside and outside at the end of every day\nThe Cantina tables need to be clean, positioned properly and have a disinfectant wipe dispenser available\nCoffee machine must be cleaned at the end of every week.\nCountertops should be wiped down/clear of any food residue.\nFridge:\nEvery Friday it must be emptied. Everybody has until 5pm that day to claim their food and place it back in the fridge. Any unclaimed or unlabeled food gets tossed in the garbage.\nRemember to remove unclaimed leftovers and containers. \nNote: All cleaning supplies are under the sink.  If you need other supplies, please do not hesitate to ask the Office Manager."
+  },
+  {
+    "chunk_id": "ChiefOfficerDuties.md::chunk_0",
+    "filename": "ChiefOfficerDuties.md",
+    "title": "Chiefofficerduties",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ChiefOfficerDuties.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "The roles of the Chief Officers are central in ensuring that the Holberton environment maintains cleanliness, professionalism and is conducive to learning. Chief Officers are designated randomly each week and an email is sent to notify students of their duties a week in advance. The Chief Officer assignments can be found on the Intranet's main page. The responsibilities are assigned to the newest active cohort to join the Holberton campus.\nImportant: Although the Chief Officers are responsible for their designated tasks, it is not intended for them to complete the tasks by themselves. The officer may ask other students for help to ensure that the job is completed. Delegating tasks to other students is a great way to maintain a positive attitude and encourage personal responsibility.\nIf a student cannot function as their designated chief officer role, they may swap role assignments with someone in their own cohort. In the rare case of needing to swap with a student from another cohort, this needs to be done manually by a staff member.\nThe first time a student fulfills the role's duties, they receive a +5% professional score. Upon subsequent assignments, a student will not receive a boost to their professional score, but they will receive a -5% professional score for each time their duty is not fulfilled. It is to Staff members' discretion whether the role has been fulfilled.\nBelow are the lists of duties that each Chief Officer is to be aware of during the week of their assignment:\nChief Kitchen Officer\nChief Open-Space Officer\nChief Audio/Video Officer\nChief Feedback Officer"
+  },
+  {
+    "chunk_id": "ChiefOpen-SpaceOfficer.md::chunk_0",
+    "filename": "ChiefOpen-SpaceOfficer.md",
+    "title": "Chiefopen Spaceofficer",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ChiefOpen-SpaceOfficer.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "See also Chief Officer Duties\nAs Chief Open-Space Officer, your overall responsibility is to make sure that the learning space is maintained to a high standard.  As a community, we have to take care of our space. As a school we must look professional to visitors, investors, and other folks coming to visit us. It is expected that you will take responsibility to maintain the computer and desk you use at school. It is also your role to remind others to be mindful of their space and to keep it neat and clean.\nList of duties:\nAt the end of each day, remove any personal items or trash from desks or meeting rooms. Relocate personal items to the lost and found. If they are valuable, please post to Slack and ask owner to claim by providing some details about where the item was found.\nMonitor and enforce the food & drink policy - drinks must be in a sealed container (i.e., travel mugs, thermos, water bottle).\nAll non-occupied chairs are pushed in. Computer keyboards and mice are put back.\nMarkers and cleaning spray should be in each meeting room. If missing, make sure to tell students if they move it, they need to put it back. New whiteboard markers and erasers can be found at the front desk. Staffed security is aware of where they are stored, students may ask security for new markers & erasers.\nRelocate any misplaced furniture back to its proper location."
+  },
+  {
+    "chunk_id": "ComputerandInternetUsagePolicy.md::chunk_0",
+    "filename": "ComputerandInternetUsagePolicy.md",
+    "title": "Computerandinternetusagepolicy",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ComputerandInternetUsagePolicy.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Computer and Internet Usage Policy\nThere is to be no video game play at school before 6:00 PM on weekdays\nThe intranet is proprietary. Screenshots and copies of projects/assignments are strictly prohibited from being shared. (Please refer to the Intellectual Property - Ownership Policy in the Student Catalog);\nHolberton communications (Slack messages, emails, Holberton produced slide decks, etc.) are considered confidential communications and are not permitted to be shared publicly. (Please refer to the Intellectual Property - Ownership Policy in the Student Catalog);\nIt is required to regularly check your Holberton accounts:\nMessages via the intranet on a daily basis\nSlack Messages\nEmails in your Google account on a daily basis\nWe have a zero tolerance policy for torrenting illegal data. Torrenting at school could result in immediate dismissal."
+  },
+  {
+    "chunk_id": "CurriculumFAQ.md::chunk_0",
+    "filename": "CurriculumFAQ.md",
+    "title": "Curriculumfaq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CurriculumFAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Curriculum FAQ\n\"This project doesn’t have a lot of resources; why aren’t there more?\"\nWhen you go to your first job, they will often times have very little documented. There may not be strong resources or clear direction. You are just given a task and you have to complete it.\nThat isn't a muscle that grows overnight! It requires a lot of gradual practice. It's not just about learning how to Google; it’s learning yourself - knowing if you prefer videos, books or articles. It’s about identifying and recognizing how you best learn and problem solve alongside others.\nWe know that instructions and resources are nice, but the reality is that even the best resources couldn’t prevent a sensation of “drop off” once you leave Holberton if those “muscles” of problem-solving and finding resources hasn’t been developed.\nWe know people aren't always happy with a project at the moment when they’re wrestling with The Checker, but \nwe are honored to stand in solidarity through the challenging experiences knowing that students will ultimately outshine the competition and be set up for success."
+  },
+  {
+    "chunk_id": "CurriculumFAQ2.md::chunk_0",
+    "filename": "CurriculumFAQ2.md",
+    "title": "Curriculumfaq2",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CurriculumFAQ2.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Curriculum FAQ\n\"Why aren’t the instructions clearer?\"\nIt’s important to develop the critical thinking ability to sift through incomplete information and secure answers/resolution. It is part of professional life, and it’s definitely part of being a software engineer.\n\"Why don’t you share the edge cases with me?\"\nThat would be like doing the work for you! Thinking about a problem from all angles is precisely what you’ll be paid for in the years to come ; ) Yes, a company explains some guidelines and requirements, but they will specifically be seeking out team members who can bring analytical skills to the table and thinking thoroughly on a problem and its corresponding solutions. \n\"Why can’t I see before the first deadline what the checker is looking for?\"\nPlease, see above"
+  },
+  {
+    "chunk_id": "CurriculumFAQ3.md::chunk_0",
+    "filename": "CurriculumFAQ3.md",
+    "title": "Curriculumfaq3",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CurriculumFAQ3.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Curriculum FAQ\n\"Why are projects released at midnight instead of in the morning?\"\nWe often get feedback requesting a variety of preferences for release times/cadence/etc. We've learned people all usually want something different based on their habits, personality, and needs.\nIn the workplace, we don't get to decide when our boss or company assigns us new work and we want to do our best to prepare you for that. \nWe encourage you to reach out to peers, TAs, or staff if you need support in strengthening any of the life skills that help us with deadlines (like good boundaries, project/time management, and confidence).\n\"Why do I have to do the __________ project with a partner?\"\nTech has come a long way, and projects, applications, and services require an immense amount of collaboration. It’s wonderful if you feel comfortable coding alone, but that is only a piece of the skills required as an engineer. You need to learn how to work on a shared codebase, manage workflow, communicate expectations/limitations, and deliver despite interpersonal challenges. \nAka This is great practice for the real world!"
+  },
+  {
+    "chunk_id": "CurriculumFAQ4.md::chunk_0",
+    "filename": "CurriculumFAQ4.md",
+    "title": "Curriculumfaq4",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CurriculumFAQ4.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Curriculum FAQ\n\"Why do we start with C?\"\nYou're learning how to learn, and learning how things truly work under the hood. This makes you much better at higher level languages.\nNot to mention, it impresses people.  \n\"Why aren’t we learning React in Foundations?\"\nThere isn’t React in Foundations because you can’t start JS by React - it’s too complex, it’s too hard. We are building foundations here, not a framework. JS concepts are already hard enough, no need to add another level of complexity.\nThankfully, this foundation and learning how to learn is giving you the tools to learn whatever framework or language you wish in the future.  \n\"Why do we learn Python?\"\nIt’s a OOO language, simple, clean, easy to set up, AND can run in almost every platform with “low cost” (CPU/Memory). It’s also used for web apps, scripts, etc. \nSure, there are other great languages, but again this is about learning fundamental concepts. Once you learn these things, it’ll be easy to pick up other languages and frameworks in the future."
+  },
+  {
+    "chunk_id": "CurriculumFAQ5.md::chunk_0",
+    "filename": "CurriculumFAQ5.md",
+    "title": "Curriculumfaq5",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CurriculumFAQ5.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Curriculum FAQ\n\"Sometimes I spend hours making headway on the projects; why won’t you make them easier?\"\nAgain, we know this can feel really tough, and we want to ensure you know YOU ARE NOT ALONE. You have peers across the world, prior cohorts who have been there, and lots of staff and HBTN allies that have your back. \nLearning things in this way - where you need to work hard for answers and grapple with content - will help you deeply integrate the content. \n\"Why do I have to ask for help?\"\nWe know this can be really hard to do, especially if you’re an introvert, independent, or unaccustomed to asking strangers for project insight : ) This is an invaluable skill, though, for which companies are willing to compensate.\nIf a manager knows that you have a great balance and understanding of when to wrestle with a challenge versus when to reach out to others for resolution, they will be able to trust you with valuable company time and money. \nNot to mention, learning to ask for help expedites problem-solving, can increase confidence, facilitates collaboration, and helps develop empathy."
+  },
+  {
+    "chunk_id": "CurriculumFAQ6.md::chunk_0",
+    "filename": "CurriculumFAQ6.md",
+    "title": "Curriculumfaq6",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CurriculumFAQ6.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Curriculum FAQ\n\"Why don’t we do bigger projects in Foundations?\"\nWe know that having bigger projects in your portfolio has a lot of value, but you need to learn to code first. The foundations are just that - building the foundations of your future endeavors. We will have some bigger projects along the way including your portfolio project and Hack Day projects, but we highly recommend you plan to build most side projects only if and when you feel mastery in all the curriculum’s mandatory topics and the expectations of a peer learning environment. \n\"Why don’t we do any mobile (or Machine Learning or Advanced web stack etc) during Foundations?\"\nFoundations are just the beginning; there is so much to learn still, but we can’t possibly fit everything into a nine-month period. That’s why we offer Specializations : ) \n\"There are no clear applications to what we are learning; printf and Shell are not practical. What’s up with that?\"\nIf you don’t see applications to what you are learning, make sure to reach out to a peer, TA, prior cohorts, or staff. It’s important to understand what you are doing and why. If you aren’t, it means you should return to the drawing board to gain context. \nThat said, somethings may not seem relevant at the time, but the more you learn, follow The Framework, and progress, you will see how it all ties together."
+  },
+  {
+    "chunk_id": "CurriculumOverview.md::chunk_0",
+    "filename": "CurriculumOverview.md",
+    "title": "Curriculumoverview",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/CurriculumOverview.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Curriculum Overview\nBelieve it or not, the content, delivery, methodology, ordering, and occasional vagueness of the curriculum is by design. Holberton has a deep commitment to providing high-quality education; we do not just want to help you understand something in a given project - we want you to have the tools to continue to learn for life. \nWe want you to learn how to learn. Regardless of the language, framework, or company, we want you to have the soft and technical skills to set you apart in your professional endeavors.  \nThe foundational curriculum was created by people with prestigious computer science degrees and combined *decades* of experience in the industry at top tech companies. \nThey had noticed aspiring software engineers would devote years to studying, sometimes accumulating over a hundred thousand dollars of student debt, and would still not have the skills necessary to find a job in software engineering. Sylvain and Julien decided to build a new school; one that taught students to think and learn like the best programmers, one that helped students develop soft skills to get them noticed in interviews and throughout their careers, and one with a curriculum developed to give students practical experience through a Full-Stack engineering program.\nWe know the program will oftentimes not feel easy; this is to be expected! It doesn’t mean you don’t belong or are not well-suited to be an engineer. It means that by using The Framework in a safe space of learning you can develop areas in your technical, professional, and personal life that will serve you in the years to come. \nRemember, no matter how tough it can feel, know that we have your back and we’re standing nearby to jump in when you need support and help."
+  },
+  {
+    "chunk_id": "Debugging.md::chunk_0",
+    "filename": "Debugging.md",
+    "title": "Debugging",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Debugging.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Debugging Overview\nDebugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as `gdb` or built-in tools that IDEs have. However, it's important to understand the concepts and processes of debugging manually.\nDebugging Basics\nThere are several methods of debugging:\n`printf` or `print` statements\nreading the error messages\nrubber duck debugging\nmethod of elimination\nmaking incremental changes and testing\nchecking misspellings, whitespace, typos\nchecking order of operations/comparisons\nIf you have reached the point in the program where you are utilizing malloc/free and writing longer programs, you may find these resources on Valgrind and `gdb` useful: \nValgrind\ngdb\nDebugging FAQ\n\"Why do I have to debug manually? Debugging tools make it faster.\"\nAs a working engineer, using tools will be beneficial for more complex bugs in shared codebases. But as a student, you must take this time to really understand your code and what it's doing and how to fix it, rather than rely on a tool to tell you what's wrong. This will make you a more efficient engineer in the long run.\nAdditionally, debuggers won't always tell you exactly what's wrong. You must be able to combine your own debugging skills alongside other tools to solve problems."
+  },
+  {
+    "chunk_id": "EvaluationQuizScoring.md::chunk_0",
+    "filename": "EvaluationQuizScoring.md",
+    "title": "Evaluationquizscoring",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/EvaluationQuizScoring.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Evaluation Quiz Scoring\nThe score is computing like this:\n1pt for correct answer\n0.5pt for \"I don't know\" answer\n0pt of wrong answer\nThe system counts the number of seconds the student spends outside the quiz page. For each 10 seconds outside of the quiz, the students’ final quiz grade will be lowered by 1%. \nIf the quiz is started outside the window when the Software Engineer releases the quiz, the maximum score of the quiz is lowered. For example, if the Software Engineer releases the evaluation quiz at 3:15pm and a student begins the quiz at 4:17pm, the student’s maximum possible score is 65% because it wasn’t started in the allotted hour time. If the quiz is done the day after it is released, the maximum score available is 60%.\nIf you cannot take the quiz for some reason, please contact the Software Engineer."
+  },
+  {
+    "chunk_id": "EvaluationQuizzes.md::chunk_0",
+    "filename": "EvaluationQuizzes.md",
+    "title": "Evaluationquizzes",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/EvaluationQuizzes.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Monthly, students will get an Evaluation Quiz after a PLD. If you struggle with these quizzes, it is a good indication that you need to work on reviewing these concepts. The data has shown when students comprehend below a certain threshold they don’t experience success after the program; this accountability is preventative to make sure we can help students get any help they may need. Unlike Mock Interviews, these quizzes do have an effect on scores by acting as a weighted project in the section score. It is in your best interest to take these quizzes seriously and reflect afterward on what you did well and what could have gone better. Most questions are taken from mandatory project tasks and quizzes that you have already seen in the curriculum at the time you are taking the evaluation quiz. The quizzes get increasingly difficult; for example, in the first Trimester have no project tasks from the third Trimester, but the third Trimester quizzes may have tasks from the first Trimester. \nOn days with Evaluation Quizzes, the Software Engineer will gather the cohort and release the quiz.  Students have 1 hour to complete the quiz with no outside help. The quiz may not be paused, but it may be completed before the hour is up.  Students may not look up concept pages, search the internet, nor discuss with peers while they complete the quiz. Students can, however, use paper and pen to organize their thoughts."
+  },
+  {
+    "chunk_id": "Events-FiresideChats.md::chunk_0",
+    "filename": "Events-FiresideChats.md",
+    "title": "Events Firesidechats",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Events-FiresideChats.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Events - Fireside chats\nFireside chats typically entail an interview of an industry professional by one or two Holberton students, followed by a round of Q and A. Students who volunteer to run the interview have the opportunity to develop a list of questions relevant to the interviewee’s experience. This is excellent practice both in self-direction and public speaking. The interview portion should occupy roughly half of the total fireside chat. The Q and A portion can be managed either by the student interviewers or the interviewee, depending on the interviewee’s preference. All fireside chats should be recorded and broadcast to other campuses as a means to share the opportunity with everyone."
+  },
+  {
+    "chunk_id": "Events-Hackathons.md::chunk_0",
+    "filename": "Events-Hackathons.md",
+    "title": "Events Hackathons",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Events-Hackathons.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Events - Hackathons\nHackathons are an industry-wide tool for rapidly developing software to tackle a specific challenge, and are one of the best ways to foster learning. The somewhat competitive and rapid nature of hackathons forces students to learn at a pace they might not otherwise impose on themselves. Hackathons can range from several hours to several days. The typical idea is that participants split into teams up to a capped number of people, are given a problem to fix with technology, and then given free rein to pursue the challenge as they see fit. One important thing to note is that if students register ahead of time, they should not decide at a later time that they do not wish to participate. Hackathons are a commitment, and that commitment should be taken very seriously. It would reflect very poorly on the student and on Holberton as an institution if people start to back out of these sorts of commitments."
+  },
+  {
+    "chunk_id": "Events-TechnicalPresentations.md::chunk_0",
+    "filename": "Events-TechnicalPresentations.md",
+    "title": "Events Technicalpresentations",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Events-TechnicalPresentations.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Events - Technical presentations\nThe format of a technical presentation is largely up to the industry professional presenter. Typically the presenter will occupy most of the presentation with a talk, which may or may not be followed by a participatory tutorial. Presentations are typically followed by 10-20 minutes of Q and A. As mentioned above, technical presentations are a unique opportunity for students to hear information they may otherwise miss out on. Each presenter will offer a unique perspective and history that cannot be matched by any amount of coursework or reading. Students should take the opportunity to take a break from whatever project they are working on and participate."
+  },
+  {
+    "chunk_id": "Events.md::chunk_0",
+    "filename": "Events.md",
+    "title": "Events",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Events.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Events Overview\nOn-site events are a very important part of the Holberton experience. They can be an opportunity for working on exciting, fast-paced projects in hackathons, or to listen to and interact with industry professionals during fireside chats or technical presentations. They are good opportunities for the acquisition of new knowledge and common practices that will be essential to landing a job and succeeding in their new career. Students are highly encouraged to attend. There are times where they may feel too busy with projects to get “sidetracked” by an event, but each event is unique and may offer invaluable information that students may not get another opportunity to hear."
+  },
+  {
+    "chunk_id": "Food&Beverage.md::chunk_0",
+    "filename": "Food&Beverage.md",
+    "title": "Food&Beverage",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Food&Beverage.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Food & Beverage Policy\nThere is to be NO FOOD consumed outside of the Cantina;\nThe only beverages permitted outside of the Cantina need to be in a securely closed water bottle/coffee mug - NO paper or plastic cups, no re-usable cups without sealed lids are permitted outside of the Cantina;\n Food Storage Bin Rules\nEach student has (2) 6-quart plastic bins. One to be used for the refrigerator, the other to be used for dry goods in the cabinets.\n If it doesn’t close, it goes! Since we have ~100 students storing food in our kitchen, we cannot accommodate more than what can fit in each bin with the lids securely closed.\nFood and beverage items left outside of these containers are subject to be thrown out. If you happen to have a to-go container that does not fit, you can keep it refrigerated until the end of the day, but it cannot stay overnight."
+  },
+  {
+    "chunk_id": "GithubStudentDeveloperPack.md::chunk_0",
+    "filename": "GithubStudentDeveloperPack.md",
+    "title": "Githubstudentdeveloperpack",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/GithubStudentDeveloperPack.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Active students in their 3rd trimester of the Foundations curriculum have access to the Github Student Developer Pack. \nThis is a pack of tools and services curated by Github for students to use and learn.\nStudents can access this by going to the Tools section of the Intranet. \nPlease Note: Students who apply for the Student Developer Pack through Github instead of the link provided by Holberton are not guaranteed access to the tools."
+  },
+  {
+    "chunk_id": "HackDay.md::chunk_0",
+    "filename": "HackDay.md",
+    "title": "Hackday",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/HackDay.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Hack Day Overview\nHack Days are a great way to harness all your new skills as full-stack software developers into projects that are perfect to showcase in your portfolio!\n \nAt Holberton, Hack Days are mandatory mini Hackathons encountered in the third trimester of the Foundations curriculum where your cohort is assigned groups to build a product/service based on project specifications.  Group sizes and length vary by Hack Day.\n \nHack Day teams and projects are released in the Intranet. Projects could be a competition between groups on campus or between Holberton campuses. \n \nSome past challenges include using data from a specific API in a new service, creating a game in multiple languages, and utilizing an internal Holberton API endpoint to create new services for Holberton students. Challenges are updated periodically, let us know if you have an idea for a Hack Day for future cohorts!\n \nHappy Hacking!"
+  },
+  {
+    "chunk_id": "Internet&WiFi.md::chunk_0",
+    "filename": "Internet&WiFi.md",
+    "title": "Internet&Wifi",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Internet&WiFi.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Interwebs Overview\nIf you’re having trouble accessing the internet try the following before contacting staff. First, make sure that you are connecting to the network called ‘Holberton’. If you are having trouble connecting, try:\nChange the EAP method you’re using to connect is ‘PEAP’.\nChange your phase 2 authentication to ‘MSCHAPV2’.\nChange CA certificate setting to ‘Don’t validate’.\nMake sure that you’re using the correct username and password (that is your Holberton username and password).\nIf you’re connected to the WiFi but still unable to access the internet, check the IP address of the network you’re connected to. It should be 10.1.22.x for SF, and 10.2.22.x for NHV.\nIf all of the above is set correctly and you’re still having trouble connecting, first try restarting your connection. If it still doesn’t work, try restarting your computer."
+  },
+  {
+    "chunk_id": "Intranet-Profilenames.md::chunk_0",
+    "filename": "Intranet-Profilenames.md",
+    "title": "Intranet Profilenames",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Intranet-Profilenames.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Student can define they preferred name in the Intranet. \nPreferred name is used for \"How they want to address them\" in Slack and Intranet. \nStudents won't be able to edit by themselves first, middle and last names - they must ask staff for change."
+  },
+  {
+    "chunk_id": "Intranet-Search.md::chunk_0",
+    "filename": "Intranet-Search.md",
+    "title": "Intranet Search",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Intranet-Search.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "If you ever want speedy access to a project or task in the Intranet, use the awesome search feature located in the lower right corner of your dashboard."
+  },
+  {
+    "chunk_id": "Intranet-SyllabusOverview.md::chunk_0",
+    "filename": "Intranet-SyllabusOverview.md",
+    "title": "Intranet Syllabusoverview",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Intranet-SyllabusOverview.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "We know it's great to have clarity on where you're headed, so you whenever you want a convenient overview of the program's syllabus click on your \"Curriculum\" tab on the far left of your Intranet dashboard. \nOnce you're there, you will be able to view the entire program's content and topics covered."
+  },
+  {
+    "chunk_id": "LiveCoding.md::chunk_0",
+    "filename": "LiveCoding.md",
+    "title": "Livecoding",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/LiveCoding.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Live coding sessions are a great way to review and reinforce knowledge of concepts and coding techniques. It is also the occasion to hear and follow the thought process of a software engineer and learn from it.\nEven though they are called live “coding”, these sessions might take different formats:\nReview of specific concepts\nQ&A\nLive coding\nWhite boarding\nCode reviews\nEtc.\nOr any combination of the above.\nLive coding sessions are optional. They are added at the discretion of the staff and are not part of the official curriculum of Holberton.\nThere are no recordings of the live coding sessions shared after the sessions' end. We do not authorize students to record live sessions without prior written consent from the staff and every single participant.\nWe want to encourage all the students to join these sessions and interact with other students and staff. Live sessions have great advantages, including interaction and communication that are not possible with recordings. Being able to ask questions about your specific challenges is a big advantage."
+  },
+  {
+    "chunk_id": "MockInterviews-FAQ.md::chunk_0",
+    "filename": "MockInterviews-FAQ.md",
+    "title": "Mockinterviews Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/MockInterviews-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Mock Interview FAQ\n“My interviewer scores me more strictly than the other interviewers score their interviewees. Can’t we make this more standardized?”\nEach student is entrusted to score fairly, and support their interviewee with hints if they are stuck (which would result in a point deduction). We understand that there may be a variance between how interviewers score, but this is also what it will be in the real world.\n“I thought the mock interview was x minutes long, but I only got y?”\nThis oftentimes happens in situations where mock interview topics are finished early. Although a\nmock interview has a designated length, each mock interview topic also has its own designated length.\nYou do not accumulate time from finishing mock interview topics early.\n“If my interviewer is late do I suffer?”\nIf your interviewer is 5 mins late you both will swap places and you will become the interviewer, and you will be the interviewee later on in the day.\n“The question is very long! I can’t possibly read off all this content to which the interviewee will understand it!”\nThis is a valid point. In cases where a question may have a lot of content, we trust the interviewer to use their judgment in displaying aspects of the question. If you do decide to share the display with the interviewee make sure you toggle hide for the answer.\n\"What do I write in the comment sections?\"\nEach comment section is different\nStudent feedback is information pertaining to the user, such as:\nWhat types of questions they messed up\nWhat can they improve on\nDid they take the mock interview seriously\nStaff feedback is information pertaining to the staff at Holberton, such as:\nWhat can the staff improve on\nWere there any hiccups during the mock interview?"
+  },
+  {
+    "chunk_id": "MockInterviews-Help.md::chunk_0",
+    "filename": "MockInterviews-Help.md",
+    "title": "Mockinterviews Help",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/MockInterviews-Help.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Mock Interview Help\nThe interviewer is allowed to discuss and ask questions in order to help the candidate find the correct solution or to get more information when needed.\nYou can help the candidate on both the technical conversation and the code.\nSubtract 0.1 point each time you helped the candidate find the correct or complete solution by asking questions. \nIf you feel you are helping the candidate too much, guide them to the right answer as much as possible or give the answer in order to move the mock interview forward."
+  },
+  {
+    "chunk_id": "MockInterviews-Pairing.md::chunk_0",
+    "filename": "MockInterviews-Pairing.md",
+    "title": "Mockinterviews Pairing",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/MockInterviews-Pairing.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Mock Interview Pairing\nBefore the mock interview, students will be paired up via the intranet and they will interview each other.  \nIf you are late or absent, you must inform us via PTO on the intranet so that we can adjust the partner pairing, otherwise, it impacts your partner's interview time and it is unfair to them if you are not here when it's time to start.\nA Note On Remote Mock Interviews\nIf you are doing your Mock Interview remotely, you or your partner will need to post the Google Meet link you use for the interview so staff can observe and offer support. This should be posted in the thread of the `Master Thread` message for the Mock Interview."
+  },
+  {
+    "chunk_id": "MockInterviews-Process.md::chunk_0",
+    "filename": "MockInterviews-Process.md",
+    "title": "Mockinterviews Process",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/MockInterviews-Process.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Mock Interview Process\nInterviewer:\nThe interviewer’s job is to simulate an interview experience and to provide fair input and direction without just giving the answers away. \nThe interview should ensure that the student is continuously commenting as they whiteboard/code and not coding silently -- you should seek to understand the candidate's problem-solving process.\nThe interviewer is encouraged to ask questions in order to make sure the concept is well understood.\nThe interviewer is allowed to help the candidate if they cannot complete the challenge.\nThe interviewer should make sure edge cases are correctly handled. \nCandidate:\nThe candidate is to push themselves to articulate their thought process, whiteboard, ask great questions, and manage their time effectively.\nThe candidate needs to comment on everything they do and explain their thought process. Don't code in silence, an interviewer wants to see how you problem solve.\nThe candidate can choose to code on the computer or whiteboard; if the latter is chosen, they still must input their code to verify that it runs.\nThe candidate must prove that their code works by using different examples and/or inputs.\nThe candidate is allowed to ask the interviewer questions.\nThe candidate does not have to commit to Github."
+  },
+  {
+    "chunk_id": "MockInterviews-Scripts.md::chunk_0",
+    "filename": "MockInterviews-Scripts.md",
+    "title": "Mockinterviews Scripts",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/MockInterviews-Scripts.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Mock Interview Scripts\nEach student in a pair will receive a different script to interview their partner. These scripts are accessed via the intranet. The interviewer will ask a set of questions and score the answers.\nThe script is divided into two parts: a conversation and the technical tests. Each of those parts comes with a set of questions, a point total for each question, and a maximum duration. The intranet will keep time for you."
+  },
+  {
+    "chunk_id": "MockInterviews.md::chunk_0",
+    "filename": "MockInterviews.md",
+    "title": "Mockinterviews",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/MockInterviews.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Mock Interview Overview\nMock Interviews are multi-purpose:\nThey help you train for technical interviews\nThey help you and the staff understand your technical skills and general knowledge\nMock Interviews are mandatory. If you are unable to be present for the entire duration, you must take a PTO via the intranet in advance.\nWhy do we do Mock Interviews and why are they mandatory?\nTechnical interviews for software engineering positions are draining -- intellectually, emotionally, and physically. Many of them can last upwards of 8 hours with few or no breaks. It's not enough for you to \"know the answers\" to their questions; you need to be able to clearly communicate your thought process and understanding despite pressure, stress, and exhaustion. \nThis type of stamina is not developed overnight; it requires consistent practice.\nHolberton School has implemented regular, increasingly difficult mock interviews to simulate the technical interview so that when your time comes you will be ready! That being said, it will only be as effective as your willingness to take it seriously, and provide one another with supportive, informed feedback."
+  },
+  {
+    "chunk_id": "OfficeHours.md::chunk_0",
+    "filename": "OfficeHours.md",
+    "title": "Officehours",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/OfficeHours.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Office Hours are set weekly hours when students can drop-in to speak with staff members about anything.\nObjective\nStudents are welcome to approach with questions, feedback or personal concerns. If the subject matter is sensitive (relating to scores, health issues, or personal challenges), students can request to move to a private meeting room.\nScheduling\nThere will be a minimum of 3 hours of Staff office hours per week. The office hour schedule and location will be announced in the #[location] Slack channel.\nLocation\nThe location for office hours can vary, but it will always be hosted in an open area.\n \nQuestions, Feedback, Concerns\nStudents are welcome to stop by to discuss any topic with Staff. Please follow the framework and first refer to PTO Frequently Asked Questions, Project Scoring, or questions around professional development."
+  },
+  {
+    "chunk_id": "PeerLearningDays.md::chunk_0",
+    "filename": "PeerLearningDays.md",
+    "title": "Peerlearningdays",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/PeerLearningDays.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "PLD Overview\nPeer Learning Days (PLDs) are a time for you and your peers to ensure that each of you understands the concepts you've encountered in your projects, as well as a time for everyone to collectively grow in technical, professional, and soft skills. During PLD, you will collaboratively review prior projects with a group of cohort peers.\nPLD Basics\nPLDs are mandatory on-site days from 9:00 AM to 3:00 PM. If you cannot be present or on time, you must use a PTO. \nNo laptops, tablets, or screens are allowed until all tasks have been whiteboarded and understood by the entirety of your group. This time is for whiteboarding, dialogue, and active peer collaboration. After this, you may return to computers with each other to pair or group program. \nPeer Learning Days are not about sharing solutions. This doesn't empower peers with the ability to solve problems themselves! Peer learning is when you share your thought process, whether through conversation, whiteboarding, debugging, or live coding. \nWhen a peer has a question, rather than offering the solution, ask the following:\n\"How did you come to that conclusion?\"\n\"What have you tried?\"\n\"Did the man page give you a lead?\"\n\"Did you think about this concept?\"\nModeling this form of thinking for one another is invaluable and will strengthen your entire cohort.\nYour ability to articulate your knowledge is a crucial skill and will be required to succeed during technical interviews and through your career."
+  },
+  {
+    "chunk_id": "Pods.md::chunk_0",
+    "filename": "Pods.md",
+    "title": "Pods",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Pods.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "The purpose of the Pods is to help students create social relationships with their peers and have a group of people they can schedule work sessions with or just hang out with. \n \nThe Pods are virtual groups of about 8 students, automatically created, based on a short quiz on study/work habits.\n \nThe Pods are accessible via the intranet (from the conference rooms tab), attendance or usage is not mandatory, there is no grade related to the Pods.\n \nPods are going to be local only: students will be grouped by inside the campus and/or country.\n \nThe short quiz about study/work habits will be released some day before the Welcome party for students (in their intranet).\n \nThe Pods will be generated and presented to students during the Welcome party."
+  },
+  {
+    "chunk_id": "PrintingPolicy-SF.md::chunk_0",
+    "filename": "PrintingPolicy-SF.md",
+    "title": "Printingpolicy Sf",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/PrintingPolicy-SF.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Printing Policy\nThe printer is located in the Copy Room: students have access to this room from 8am - 5pm \nStudents can print a maximum of 30 pages per 30 days. If a student needs to print more pages, please contact the Office Manager via Slack (Direct Message)\nFollow appropriate directions to add the printer to your computer\nIf you are having trouble syncing to the printer, please contact the Office Manager via Slack.\nIf paper or ink is needed to be refilled, please contact the Office Manager via Slack."
+  },
+  {
+    "chunk_id": "ProfessionalAdvisors-FAQ.md::chunk_0",
+    "filename": "ProfessionalAdvisors-FAQ.md",
+    "title": "Professionaladvisors Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProfessionalAdvisors-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Professional Advisors FAQ\n\"How can I create opportunities for myself?\"\nFirst off, be aware of what you want. This applies to any step of the journey. Maybe, you want to get better at technical writing, or perhaps your long term plan is to work in cybersecurity. Whatever the case may be; if you are aware of what you want you will have ideas as to what you need. \nOnce you’re aware of what you need, follow The Framework, and don’t be shy in asking for help! \nOthers can only help as effectively as you define what you need. \nWe want to see what you have to share, build, and create, but only you can take the first steps to actualize that. \n\"How do I gain access to professional advisors?\"\nPlease, follow The Framework. \n\"How do I build a network?\"\nBe yourself. It may sound cliche, but if you are busy living your best life and pursuing your dreams with integrity you will draw advocates. If you are excited about Machine Learning, for example, then follow that with every moment and any spare chance you get; along the way, you will encounter those that have the information you will need to know. \n\"How do I create my narrative?\"\nAgain, know what you want. If you know what your end goal is, then you can begin to craft an authentic social media presence, self-introduction, and networking purpose that effectively shares your goals with others in an optimum way.  \nIf you don’t know what you want, don’t worry about a narrative just yet. Instead, focus on learning about this big world of technology, and when you’ve found the job/product/technology/industry that lights you up you’ll know what to aim for. Otherwise, you’ll be asking for investment from others in roles that you may realize you no longer want to pursue."
+  },
+  {
+    "chunk_id": "ProfessionalAdvisors.md::chunk_0",
+    "filename": "ProfessionalAdvisors.md",
+    "title": "Professionaladvisors",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProfessionalAdvisors.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Professional Advisors Overview\nProfessional advisors are tech industry veterans who believe in inclusive, empowered education and actively advance the Holberton mission. Their contributions to the community are as diverse as the individuals themselves, and we’re appreciative of all the varying ways they enrich the Holberton experience. \n\nCurriculum Development\nOur Advisors are at the core of curriculum development. Before any curriculum is created, Professional Advisors are interviewed to determine the industry trends and needs for a particular topic. From there, they help to create a high-level outline, guiding what foundational information is absolutely necessary for students and what languages/tools are crucial to the industry. Once the curriculum is developed, they regularly review projects to ensure that they are up to date and relevant to industry needs. Without our Professional Advisors, the Holberton curriculum would not be nearly as effective as it is. \nStudent Interactions\nIn addition to curriculum development, many Professional Advisors come to Holberton School to directly interact with students. Some of the activities that our Professional Advisors participate in include fireside chats about career advice, presentations on up and coming technologies, resume reviews, leading extracurricular projects, and mentoring portfolio projects.\n\nNetworking\nAt Holberton School, we strive to help you succeed with both hard and soft skills. When it comes to networking, knowing how to navigate best practices is important. While Holberton School has access to industry professionals, it is important to remember that these folks are working full-time jobs. In order to cultivate genuine relationships with potential career mentors, we stress that Holberton students must follow The Framework before reaching out to these professionals."
+  },
+  {
+    "chunk_id": "ProfessionalTrack-PTO.md::chunk_0",
+    "filename": "ProfessionalTrack-PTO.md",
+    "title": "Professionaltrack Pto",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProfessionalTrack-PTO.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "The Professional Track includes PTOs (Personal Time Off) which are attendance allotments for students to use at their discretion on otherwise mandatory days. Students are given 4 PTOs for the first trimester and 2 PTOs per subsequent trimester. Students can view their PTO balance in their intranet dashboard; staff can view a student's PTO balance in the student's intranet profile. PTOs do not roll over between trimesters.\nStudents can select when they would like to use their PTOs via their intranet dashboard up until the start of that mandatory day; this is done to encourage student professionalism in communication as well as to aid staff in planning. Students can choose to take either a half or full-day off, which will be reflected in their PTO balance. When students take a half-day, they may choose to participate in either half of the day. In the case that students would like to take the first half of the day off, they must arrive at school before the 1:00 pm check-in. If students would like to take the second half of the day off, students must stay until after stand up is finished. Note that if a student has to arrive after the 1:00 pm check-in or must leave before stand up, that student will have to take a full PTO. If a student does not inform us that they will not be attending any part of a mandatory day, an additional ¼ PTO will be deducted.\nPTO application: \nHalf-day off == - ½ PTO\nFull day off == - 1 PTO\nUnscheduled Half-day off == - ¾ PTO\nUnscheduled Full day off == - 1 ¼ PTOs\nIf a student chooses to take PTOs beyond their allotment, it will begin to negatively impact their professional score. Their first additional PTO (balance of -1) will negatively impact their score by 20% (e.g. 100% -> 80%). Their second additional PTO (balance of -2) will negatively impact their score by an additional 40% (e.g. 80% -> 40%). With the theoretical maximum student technical score of 200%, two or more additional PTOs beyond a student's allotment will result in the automatic failure of that trimester due to their overall score being guaranteed below 80%."
+  },
+  {
+    "chunk_id": "ProfessionalTrack-Tardiness.md::chunk_0",
+    "filename": "ProfessionalTrack-Tardiness.md",
+    "title": "Professionaltrack Tardiness",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProfessionalTrack-Tardiness.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Professional Track - Tardiness\nAlthough students are encouraged and expected to arrive promptly for mandatory day check-ins, Holberton has implemented a forgiveness window in which students may arrive late and not be penalized. In these scenarios, the student must ensure that they talk to the Software Engineer or Teacher Assistant and explain their reasoning for being late. Each campus/region has its own forgiveness window and students should be made aware that this is due to cultural differences.\nIf students repeatedly arrive late without good reason, the Software Engineer will schedule a meeting to discuss ways in which students can work on their tardiness (e.g. If the student is always late because of the bus, the suggestion would be to wake up 30 minutes earlier). If the students are still tardy without reason thereafter, it will negatively impact their score by 5%. \nSome examples of acceptable tardiness:\n\"My nanny quit and I had to take my child to school\"\n\"My family member was ill and I had to take them to the doctor\"\n\"There were system-wide transportation outages\"\n\"My car/bike got stolen\"\nSome examples of unacceptable tardiness:\n\"I missed my bus/train/cab/ferry\"\n\"There was traffic\"\n\"My alarm didn't go off\"\n\"I didn't know it was a mandatory day\"\n\"I haven't finished my projects\""
+  },
+  {
+    "chunk_id": "ProfessionalTrack.md::chunk_0",
+    "filename": "ProfessionalTrack.md",
+    "title": "Professionaltrack",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProfessionalTrack.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Professional Track Overview\nIn your career, your professionalism will be equally as important as your actual engineering abilities. We want to make sure that our students leave school not only with great technical skills, but also the professional skills to help them throughout their careers.  \nEach trimester, the students are given a baseline Professional Track score of 100%. Just as an employee’s professionalism can negatively impact their career trajectory, the professionalism score acts as a weight on a student’s overall average. The track score will either increase or decrease based on a student's fulfillment and observance of varying community expectations. \nExamples of increase/decrease:\nThe Professional Track score can increase when community service is accomplished including:\nCompleting stand up presentations\nRunning meetups\nSuccessfully performing officer duties \nThe professional score can decrease for the following reasons:\nFailure to meet community responsibilities such as officer duties, stand up presentations, meet up obligations, etc.\nFailure to attend RSVP’d event\nCheating\nDisrespectful behavior to staff, peers, or others\nRepeated tardiness or absences\nThe professional score acts as a weight on a student's overall score."
+  },
+  {
+    "chunk_id": "ProjectScoring-BrokenChecker.md::chunk_0",
+    "filename": "ProjectScoring-BrokenChecker.md",
+    "title": "Projectscoring Brokenchecker",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-BrokenChecker.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - Broken Checker\n“The checker is broken”\n99% of the time, the checker is not broken. Remember, hundreds of students have gone through this program! Most of the notifications staff receive about the checker being broken are due to students having forgotten a README.md, not making their files executable, misspelling something, not returning the correct value, or missing edge cases. Use your knowledge of what types of checks you are failing to help guide you (see Check Types). If you think the checker is broken:\nCheck that your code meets ALL requirements\nIf that doesn’t fix the issue, follow the Framework in its entirety:\nAsk peers\nAsk more peers\nAsk previous students\nAsk your TA\nAsk more TAs\nIf you have exhausted the framework, put together a hypothesis as to why you think the checker is broken and test it! \nIf you still think something is wrong, please post your issue in the #checker_issues slack channel. Make sure to include a link to the project, the task number, and why you think the checker is broken."
+  },
+  {
+    "chunk_id": "ProjectScoring-CheckTypes.md::chunk_0",
+    "filename": "ProjectScoring-CheckTypes.md",
+    "title": "Projectscoring Checktypes",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-CheckTypes.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - Check Types\nThere are three different types of checks:\nRequirement checks: These checks exist to make sure that the task fulfills the requirements of the project (README.md exists, the file is executable, banned functions are not used, etc.). They are displayed with red for failure and green for passing and do not have a solid outline. They can potentially block the checking of remaining checks.\n=> If you are not passing a requirement check, look to the requirements of the project/task to see what might be wrong. Make sure that everything GitHub related is correct.\nOutput checks: These checks exist to make sure that the code is performing as is should. They are displayed with red for failure and green for passing and have a solid outline. \n=> If you are not passing an output check, talk with peers to see if you are getting the right output or are missing various edge cases.\nEfficiency checks: These checks exist to make sure that the task is performing at the correct efficiency. They are displayed as orange for failure and purple for passing.\n=>If you are not passing an efficiency check, try thinking of other algorithms that can increase the efficiency of your code."
+  },
+  {
+    "chunk_id": "ProjectScoring-Checker.md::chunk_0",
+    "filename": "ProjectScoring-Checker.md",
+    "title": "Projectscoring Checker",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-Checker.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - The Checker\nHolberton’s Correction System (AKA The Checker) is used to score all Auto QA reviews. For tasks requiring an Auto QA review, a “check my code” feature may be available. (Note: check my code may be released only part way through the project or after the first deadline) This feature allows students to check if their code is passing all of the checks for the task in question. This feature is not meant to tell students what is wrong with their code but is merely there to help in determining if their code is passing the checks used to grade their project. The checks are randomized between students and change every 24 hours."
+  },
+  {
+    "chunk_id": "ProjectScoring-Contribution.md::chunk_0",
+    "filename": "ProjectScoring-Contribution.md",
+    "title": "Projectscoring Contribution",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-Contribution.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - Contribution\nFor team projects, a team contribution score will be determined based on the number of commits and lines added/deleted by each teammate. Contribution scores start at 100%. If there is a large discrepancy between teammate contribution, the contribution grade will be reduced. This score will then act as a weight on the overall project grade.\nExample: You and your teammates earned a mandatory score of 95% and an advanced score of 80%. Unfortunately, one of your teammates contributed significantly less than the others, causing your contribution score to drop to 50%. Your overall score would be calculated as follows:\nOverall Score = Contribution Score * (Mandatory Score + (Mandatory Score * Advanced Score))Overall Score = 50% * (95% + (95% * 80%)) = 85.5%"
+  },
+  {
+    "chunk_id": "ProjectScoring-FAQ.md::chunk_0",
+    "filename": "ProjectScoring-FAQ.md",
+    "title": "Projectscoring Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring FAQ\n\"My code gives the correct output, but I’m failing all of the checks!\"\nDid you make sure to check that you have all the requirements? GitHub setup correctly, README.md exists and is not empty, code compiles, files are executable, files are spelled correctly, code does not contain forbidden variables/functions/conditionals etc.\n\"Can I ask for a new correction more than once?\"\nYes, you can ask for a new correction as many times as you would like.\n\"My grade went down after the second deadline. What happened?\"\nIt is possible to lose points on the second regrade if a task that you did not complete is passing fewer checks than before. Check the QA review for more details as to how your tasks were graded and where each point comes from. \n\"Does the team contribution score get updated for the second deadline?\"\nYes, team contributions are tracked through the second deadline.\n\"What happens to the contribution score after the second deadline?\"\nAfter the second deadline, students are free to fork their team’s repository and work alone on updating their project for the 50% regrade without negatively impacting their contribution score. However, the contribution score will remain."
+  },
+  {
+    "chunk_id": "ProjectScoring-FAQ2.md::chunk_0",
+    "filename": "ProjectScoring-FAQ2.md",
+    "title": "Projectscoring Faq2",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-FAQ2.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring FAQ\n“I was unable to complete the project by the second deadline due to circumstances outside my control. How can I get my project graded?”\nPlease reach out to your Student Success Manager or Software Engineer to discuss the possibility of a regrade of your project.\n\"My project grade is not the same as at the top of the project page. It says I’m X% done!\"\nThe percentage done is not your project grade, but merely an indication of how many tasks you have completed. Remember, it is possible to finish all project tasks and get a grade below 200% with 65%/50% regrades. Your project grade is located in the “In a nutshell” section.\n\"I clicked for a new grade, but my score hasn’t changed. What’s up?\"\nWait a few minutes for the correction to be processed and try refreshing the page. If the score still does not update after 15 minutes, please post about your issue in the checker_issues slack channel.\n\"My score from last trimester went down, what happened?\"\nIf you have recently asked for a new correction for a project that was from the previous trimester and your score for that project went down (as is possible with regrades), it would be reflected in your trimester score."
+  },
+  {
+    "chunk_id": "ProjectScoring-GitHub.md::chunk_0",
+    "filename": "ProjectScoring-GitHub.md",
+    "title": "Projectscoring Github",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-GitHub.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - GitHub\nAuto QA reviews will be completed by accessing students’ code from GitHub. Students should make sure that they only use the GitHub account listed in their intranet profile. If a student’s GitHub username is misspelled or their project is uploaded to a different account, the project will not be properly corrected. If the project repository and/or task files are not located/spelled in accordance with the project description, the project will not be properly corrected. Projects will not be re-graded for these issues.  \nIf a project is completed in teams, the project will be scored by selecting the first locatable repository amongst the team members. It is for this reason that it is highly recommended that these projects be completed using only one repository. Creating a duplicate repository with the same name or forking of a repository with the same name before all deadlines have passed may cause issues if there are discrepancies between repositories. Projects will not be re-graded for these issues."
+  },
+  {
+    "chunk_id": "ProjectScoring-Grades.md::chunk_0",
+    "filename": "ProjectScoring-Grades.md",
+    "title": "Projectscoring Grades",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-Grades.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - Grades\nEach project has a weight, which can be found in the top left corner of the project page. This weight acts as the number of times the project score gets counted towards the student’s overall grade. Most projects have a weight of 1, but larger projects (like printf, shell, etc.) will have a higher weight. \nExample: If you completed 5 projects at 100%, each with a project weight of 1, and 1 project at 50% with a project weight of 5, your grade would be calculated as follows:\nGrade = (100% + 100% + 100% + 100% + 100% + 5*50%) / (1 + 1 + 1 + 1 + 1 + 5) = 75%"
+  },
+  {
+    "chunk_id": "ProjectScoring-OptionalProjects.md::chunk_0",
+    "filename": "ProjectScoring-OptionalProjects.md",
+    "title": "Projectscoring Optionalprojects",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-OptionalProjects.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - Optional Projects\nThere are some projects throughout the curriculum that are not mandatory. These projects are for students who have already completed the mandatory projects and are looking to further their knowledge base. Because optional projects only contain advanced tasks, the project scoring starts at 100% and goes to 200%. Completing any part of these types of projects will, therefore, lead to a score above 100%. Optional projects will only count towards a student’s overall grade if they receive a score above 100%. It is possible for an optional project to lower a student’s grade if their overall average is higher than their project grade."
+  },
+  {
+    "chunk_id": "ProjectScoring-Regrades.md::chunk_0",
+    "filename": "ProjectScoring-Regrades.md",
+    "title": "Projectscoring Regrades",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-Regrades.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - Regrades\nEach project has two deadlines. The first deadline is the main project deadline, which is graded as mentioned above. The second deadline is a chance for students to go back over their Auto QA portion of their projects and correct their mistakes after conferring with peers. Tasks that were not fully completed will be regraded at 65%. What does that mean? For each task that was not 100% finished, all of its checks will be rechecked. If a check was already passing and is still passing, it will receive the same point value as previously.  If a check is newly passing, it will receive 65% of the points. If a check is no longer passing, it will receive 0 points. After the second deadline, all tasks (Auto and Manual QA) can be re-graded at 50% by clicking on the red “Ask a new correction” button. Students should be careful as regrades can lower their scores!"
+  },
+  {
+    "chunk_id": "ProjectScoring-TaskLevel.md::chunk_0",
+    "filename": "ProjectScoring-TaskLevel.md",
+    "title": "Projectscoring Tasklevel",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring-TaskLevel.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Project Scoring - Mandatory vs Advanced Tasks\nMandatory tasks are just what they sound like: tasks that are mandatory to complete for the project. Advanced tasks, on the other hand, are purely optional and are scored separately out of 100%. This advanced score will be added to the mandatory score, making the total possible grade for the project 200%. However, the advanced score is weighted by the mandatory score. This means that if a student does not earn 100% on the mandatory tasks, their advanced score will be negatively impacted. This is to reinforce the importance of mandatory tasks.\nExample: If you completed a project and received a mandatory score of 80% and an advanced score of 100%. Your overall score would be calculated as follows:\nOverall Score = Mandatory Score + (Mandatory Score * Advanced Score)Overall Score = 80% + (80% * 100%) = 160%"
+  },
+  {
+    "chunk_id": "ProjectScoring.md::chunk_0",
+    "filename": "ProjectScoring.md",
+    "title": "Projectscoring",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectScoring.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Scoring Overview\nProjects are scored based on the performance of tasks. A task has multiple checks, each with their own point value. All checks are pass/fail, meaning a passed check will receive full points while a failed check will receive 0 points. The project grade will then be calculated based on the number of points the student earns out of the total points available.\nExample: A project has two tasks. The first task has 5 checks, each worth 1 point. The second task has 3 checks worth 1, 1, and 3 points, respectively. You pass all checks except for the last check in the second task. Your score would be: \nOverall Score = 100% * Points Earned / Total Points Available\nOverall Score = 100% * 7 / 10 = 70%\nQA Reviews\nTasks are scored using two methods: Auto or Manual QA review. Auto QA reviews are automatically run at midnight after the project’s first deadline. Manual QA reviews, however, must be completed by staff or a peer who has already been reviewed. Manual QA reviews must be completed within 1 week of the first deadline, otherwise, 0 points will be given for all tasks requiring such a review. It is the student’s responsibility to ensure that Manual QA reviews are completed before the deadline. If a project has a Manual QA review component, the overall project grade will not be released until after the Manual QA review is completed. \nOnce a task’s QA review is complete, a button labeled “QA Review” will appear below the task. Clicking this button will display a full description of all the task’s checks and reasons that a student passed/failed each check. Some checks include the exact main file used to check students’ code, which can be used to help understand and fix mistakes."
+  },
+  {
+    "chunk_id": "ProjectTypes.md::chunk_0",
+    "filename": "ProjectTypes.md",
+    "title": "Projecttypes",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/ProjectTypes.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Standard Projects\nMost projects at Holberton are Solo projects, where you rely on your research and coding skills to complete tasks. \nThese projects are oftentimes - though not exclusively - shorter in duration, and have a \"standard\" task/solution format. Their progression is usually in order of complexity - ending with advanced questions. Advanced tasks, however, are supplemental and complementary to a given mandatory project; the points are bonus and you cannot access the advanced questions without first completing the mandatory ones. The Checker is usually released halfway through the duration of the project, with some exceptions.\nGroup\nGroup projects are those where more than one student contributes to the code. Usually, these are pair projects, with either the Intranet choosing your partner or you choosing, depending on the project. \n \nAll group projects are graded in relation to contribution equality. This means that the closer to an even split the partners' contributions are, the higher their composite score will be. The inverse leads to a lower score. \nBlogs\nTechnical writing is an incredibly important component of the curriculum and professional preparation offered at Holberton. Starting from the very beginning, you are required to write technical articles. \nThese blogs are peer-reviewed and you are responsible for ensuring that your blog post is reviewed before the deadline. If no peer is able to review your blog, you should ask the TA or software engineer to review it. \nHack Days\nRefer to Hack Days article in this knowlege base.\n \nPortfolio Projects\nRefer to the Portfolio Project section of this knowledge base."
+  },
+  {
+    "chunk_id": "Roundtables.md::chunk_0",
+    "filename": "Roundtables.md",
+    "title": "Roundtables",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Roundtables.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "At the beginning of every trimester, each cohort will gather together in small groups for a 30m Roundtable conversation to kick off the trimester together. \nObjective\nThe Roundtables create small support groups within the cohort and gives the supporting staff an opportunity to get to know the students beyond their technical project-work.\nScheduling\nThe Roundtables will be defined by the first PLD groups (with adjustments for absences). The groups meetings will be planned within the first couple of weeks in the trimester. They may span a couple days if there are more groups.\n \nTrimester 1\nEach person will be asked to introduce themselves by:\nSharing a bit about their background\nOffer a way that they can help people\nAsk for a way they can be supported\nTrimester 2 & 3\nEach person will be asked to share:\nTheir experience of the past trimester\nWhat their personal goals are for the next trimester (or future)\nWhether they have new offers or asks of their group"
+  },
+  {
+    "chunk_id": "SFCampusAccess.md::chunk_0",
+    "filename": "SFCampusAccess.md",
+    "title": "Sfcampusaccess",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/SFCampusAccess.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Students have 24/7 access to the SF campus while they are students in San Francisco.\nOnce students graduate, they will be granted lifetime access to the SF campus. \nHolberton reserves the right to revoke access to any student on any campus for any reason. Students may appeal this decision and, if curable, may be given the opportunity to reinstate their access."
+  },
+  {
+    "chunk_id": "SexualHarrassment.md::chunk_0",
+    "filename": "SexualHarrassment.md",
+    "title": "Sexualharrassment",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/SexualHarrassment.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "This is a definition of our Sexual Harassment policy found in the Student Catalog (p.42 in 2020 Catalog / p.69 in 2019 Catalog):\nThis institution is committed to provide a work and study environment that is free of discrimination, intimidation and harassment. In keeping with this commitment, we believe that it necessary to affirmatively confront this subject and express our strong disapproval of sexual harassment. No one associated with this institution may engage in verbal abuse of a sexual nature; use sexually degrading or graphic words to describe an individual or an individual's body; or display sexually suggestive objects or pictures at any facility or other venue associated with this institution. Students are responsible for conducting themselves in a manner consistent with the spirit and intent of this policy.\nWe will not tolerate any type of behavior that may be associated with sexual harassment. Please reach out to a staff member if you would like to discuss the policy, or report an incident."
+  },
+  {
+    "chunk_id": "SpeakeroftheDay-FAQ.md::chunk_0",
+    "filename": "SpeakeroftheDay-FAQ.md",
+    "title": "Speakeroftheday Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/SpeakeroftheDay-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Speaker of the Day FAQ\nHow do I switch Speaker of the Day presentation slots? \nStudents can switch Speaker of the Day presentation slots on the Intranet under “Speaker of the Day”\nHow long do I have to change my Speaker of the Day presentation slot?\nStudents have 72 hours (3 days) before their scheduled presentation slot to change their Speaker of the Day presentation slot. Any request after 72 hours can result in losing professional points that will affect ones professional score at the end of the trimester.\nDo I still have to fulfill my Speaker of the Day duty if it lands on a project day (a non-mandatory day)?\nYes, Speaker of the Day is a mandatory assignment that will affect students professional track if not completed.\nIf I can't find anyone to switch with me and I know I will not be able to present on the schedule presentation day what should I do next? \nUse a .5 PTO or risk losing points off of the Professional track\nWhat staff member do I contact if I am unable to switch Speaker of the Day presentation slots?\nYou will contact the Office Manager or the Student Success Manager.\nWhat if my presentation is about Religious or Political parties and views?\nIf students do not follow topic guidelines they will not receive the professional points\nDo I need to dress professionally when I give my presentation? \nIt is one of the criteria for the Feedback Officers to evaluate, however it is not required to dress professionally when giving ones Speaker of the Day presentation. In the real world, interviews and public speaking generally require more presentable attire."
+  },
+  {
+    "chunk_id": "SpeakeroftheDay.md::chunk_0",
+    "filename": "SpeakeroftheDay.md",
+    "title": "Speakeroftheday",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/SpeakeroftheDay.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Speaker of the Day\nWhat is speaker of the day?\nEvery day at Standup, two randomly assigned students will be giving a three-minute presentation on a topic of their choice. There are three templates available as presentation options below.\nThe assigned students will receive their presentation date two weeks before the expected presentation via intranet and email. \nPresentations must be submitted to the appropriate Slack channel at least 24 hours in advance of the standup presentation. \nThe purpose of this exercise is to practice and strengthen public speaking skills in a supportive environment.\nPresentations cannot be about Religious or Political parties and views.\nThere will be Feedback Officers who will provide a manual review of each standup presentation. They will reflect upon various aspects of the delivery and content to help the Speaker of the Day improve."
+  },
+  {
+    "chunk_id": "SpecializationValidation-Criteria.md::chunk_0",
+    "filename": "SpecializationValidation-Criteria.md",
+    "title": "Specializationvalidation Criteria",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/SpecializationValidation-Criteria.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Full-Time Curriculum Specialization\nStudents can study any of the below specializations on-campus or remotely. Similar to the Foundations Year students must meet an 80% minimum per trimester to advance to the sequential trimester.\nThere are three specializations from which to choose:\nMachine Learning\nAR/VR\nLow-Level & Algorithms\nFull-Stack Web Development\n\nSpecialization Validation Criteria\nOnce a student has procured employment, they will engage in their on-the-job training until such time they are able to provide a recommendation letter. To validate the Specialization Year with a recommendation letter a student must be either:\nA full-time employee with the same company for 6 months\nThis includes the situation where a full-time intern/apprentice/contractor/consultant, changes their status to be a full-time employee with the same company on or after the six-month mark\nA full-time apprentice with the same company for 9 months\nA full-time contractor/consultant with the same company for 6 months"
+  },
+  {
+    "chunk_id": "SpecializationValidation.md::chunk_0",
+    "filename": "SpecializationValidation.md",
+    "title": "Specializationvalidation",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/SpecializationValidation.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Specialization Validation Overview\nOnce a student enters their Specialization Year, they have the option to either study the Full-Time Curriculum (See: Specializations) to validate the program. To validate the Curriculum Specialization students must meet the minimum Global Score. \nWhen a student has completed their studies in good standing, or, their recommendation letter has been accepted by the Institution Representative, the student will receive an email confirming their validation of the Specialization Year, in addition to a Certificate of Completion.  \nStudents who have validated their Specialization Year and completed the program will gain access to the entire curriculum to work on at the standard pace with a scheduled cohort and/or at their own leisure. In addition to the curriculum, they will also maintain access to Holberton's facilities, Slack, intranet, and email."
+  },
+  {
+    "chunk_id": "Specializations-FAQ.md::chunk_0",
+    "filename": "Specializations-FAQ.md",
+    "title": "Specializations Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Specializations-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Specialization FAQ\n\n\"Where can I find more information on the tracks?\"\nZendesk, Syllabus, and if that isn’t enough you can ask staff. \n\n\"Why isn’t ___________ specialization offered?\"\nWe have varying additional Specializations to be released in 2020; if you have a preference, please let us know so we can take that to heart as we iterate and prioritize! \n \n\"Do I have to do it full-time?\"\nYes, Specialization content is as intensive as Foundations. It requires your undivided attention. \n \n\"Can I do it part-time?\"\nYou cannot do it part-time, however, once your Specialization is fully validated and you’ve graduated from Holberton you may access all Specialization projects at any point in time at your own pace - including future content. \n \n\"Can it be done remotely?\"\nStarting January 2020, Specializations will involve Peer Learning Days, Mock Interviews, and collaboration; if you are unable to be onsite, let us know and we'll help you explore remote participation!\n \n\"Can I study at another Holberton campus?\"\nIf you want to do your full-time studies remotely while working at another Holberton campus, let us know, and we’ll see what we can do!"
+  },
+  {
+    "chunk_id": "Specializations-FAQ1.md::chunk_0",
+    "filename": "Specializations-FAQ1.md",
+    "title": "Specializations Faq1",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Specializations-FAQ1.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Specializations FAQ\n\n\"Can I study and work at the same time?\"\nNo, we strongly discourage this. We understand that you may need to do so regardless, but please note that the Specialization will require a lot of work.\n\n\"What if I want to study and search for a job?\"\nWe believe that both of these endeavors require focused attention in order to ideally succeed. Please, undertake Specialization studies if you can prioritize it so that you can get the most out of your experience.\n \n\"What are the grade expectations?\"\nSame as Foundations, you must maintain and achieve an 80% in order to proceed to the next trimester in the program. \n \n\"Are there mock interviews and PLDs?\"\nYes! As of January 2020, they have been integrated due to high student request and demand; we're excited and pleased ourselves ; ) \n \n\"What are the project days like?\"\nUnlike Foundations, the majority of the Specialization projects are longer and go more in-depth. As always, you can collaborate with peers however works best for you and them."
+  },
+  {
+    "chunk_id": "Specializations-FAQ2.md::chunk_0",
+    "filename": "Specializations-FAQ2.md",
+    "title": "Specializations Faq2",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Specializations-FAQ2.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Specializations FAQ\n\n“How does Holberton School ensure that year 2 curriculum is ‘industry standard’ ?''\nThe same as with Foundations, we involve a number of senior industry engineers and industry experts in the research, development, and implementation of the curriculum. Representing a variety of company types, industry needs, and technical priorities, these advisors contributions ensure students will be competitive once in the field of the choosing. \nThere isn’t yet a quantifiable, commonly accepted metric of an “industry standard” - especially since software engineering is a vast field. However, by fielding the expertise of many advisors, we’re confident in this qualifiable assessment of quality."
+  },
+  {
+    "chunk_id": "Specializations-FAQ3.md::chunk_0",
+    "filename": "Specializations-FAQ3.md",
+    "title": "Specializations Faq3",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Specializations-FAQ3.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Specializations FAQ\n \n“How does Holberton measure the quality of the curriculum?” \nThe way we measure quality is ensuring it’s relevant to the industry, and that the students who complete it in good standing will be prepared for employment in that respective field. \n \nWe haven’t measured the exact amount of time dedicated to each project’s creation, iteration, or review, since this would be prohibitively ineffective in regards to agile development. We can, however, provide a few examples to share context: In the case of Full-Stack Web Development, the 9 months of content are comprised of 928 hours of senior contribution and 1050 hours of Curriculum Team implementation. \n \nQualitative examples include, but are not limited to, how the AR/VR curriculum has a stamp of approval from Unity, one of Machine Learning’s core advisors also serves on the Deep Learning & AI Technical Committee of NASA’s Frontier Development Lab, and that the Low Level Specialization was co-created by Julien Barbier - valedictorian from the European Institute of Technology with career history as a Software Engineer, Product Manager, and a CEO in different tech companies.\nIn the Spring of 2020, we’re committing to sharing a curriculum review schedule with students - including the profiles of who participate - so you have heightened visibility of how we ensure quality."
+  },
+  {
+    "chunk_id": "Specializations-FAQ4.md::chunk_0",
+    "filename": "Specializations-FAQ4.md",
+    "title": "Specializations Faq4",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Specializations-FAQ4.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Specializations FAQ\n \n“Have the Specializations been tested to ensure there aren’t any major bugs or technical discrepancies?” \nAbsolutely, yet with that said, as you have likely noticed in Foundations (and we clarify during Day 0 orientation) you may encounter a bug; this is a reality of an ever-changing industry as well as curriculum that’s facilitated by software. That said, if you happen to discover a bug, the staff will immediately prioritize the matter to ensure that your education isn’t compromised. Akin to how many cohorts have improved the program up to this point, we’re looking forward to how future cohorts will encourage iterations in years to come by sharing their feedback."
+  },
+  {
+    "chunk_id": "Specializations.md::chunk_0",
+    "filename": "Specializations.md",
+    "title": "Specializations",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Specializations.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Specialization Overview\nAfter you acquire the foundations of software engineering, you specialize.\nStudents have the opportunity to go beyond the foundations with specializations that focus on exciting emerging technologies. After acquiring the foundations, you will be able to choose from our current specializations: Machine learning,  AR/VR, Low-Level and algorithms or Full-Stack Web Development.\n\nFormat\nStill no teachers or formal lectures\nStudents are learning by creating with peers\nOpportunity for Cross-Campus Collaborations \nMonthly Streamed Topic Deep Dives from Content Creators and Industry Experts\n \nSimilarly to Foundations, the first 6 weeks of the Specialization will have about 2 Peer Learning Days a week which phase to weekly. Mock Interviews take place approximately every 6 weeks. \nSpecializations allow students to collaborate and partner on projects with peers at other campuses - leveraging global peer-learning and development - technically and socially. Topic deep dives and PLDs will also incorporate cross-campus interactions. \nAlthough attendance and campus participation is highly encouraged, there are no PTOs for Specializations. Instead, accrued participation in Mock Interviews and Peer Learning Days results in interview practice with staff & advisors. \n\nTo stay sharp and well-rounded, each week of your Specialization you receive an Interview Algorithm (which is mandatory and contributing towards your trimester and overall average); they ramp in complexity throughout the program, so you're ready to put your best foot forward in interviews.\n\nYou will not be pushed to apply to any positions, instead this focuses on technical preparation, interviewing skills, and portfolio polishing."
+  },
+  {
+    "chunk_id": "StandUp.md::chunk_0",
+    "filename": "StandUp.md",
+    "title": "Standup",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/StandUp.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Stand Up is a meeting that takes place daily on campus at the same specified time. It is an opportunity for staff and students to make announcements pertinent to the community. Each stand up will be live-streamed and available for viewing through the intranet. \nIt is mandatory for all students on campus to attend Stand Up. Students who are on campus, but not present in the stand up area, are at risk for a deduction to their professionalism score."
+  },
+  {
+    "chunk_id": "StudentDismissal-Academic.md::chunk_0",
+    "filename": "StudentDismissal-Academic.md",
+    "title": "Studentdismissal Academic",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/StudentDismissal-Academic.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Dismissal - Academic Probation/Scores\nA student must maintain a minimum Global Score of 80% per trimester to be in good academic standing. WIthin each trimester there are three months, and if a student is below 80% in one month they will be placed on academic probation. If at the end of the Trimester, the student has not raised their Global Score to the 80% minimum, they will be dismissed or they may be offered the opportunity to be transferred to a new cohort, to repeat their trimester. This decision is made at the sole discretion of the Institution Representative. \n\nDismissal - Academic Dishonesty/Cheating\nIf a student is caught cheating or being academically dishonest they could receive a one-time warning prior to dismissal, or they could be immediately dismissed. This is dependent upon the nature and severity of the academic dishonesty, and/or at the discretion of the Institution Representative."
+  },
+  {
+    "chunk_id": "StudentDismissal-Behavioral.md::chunk_0",
+    "filename": "StudentDismissal-Behavioral.md",
+    "title": "Studentdismissal Behavioral",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/StudentDismissal-Behavioral.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Dismissal - Behavioral Issues\nIf a student is having behavioral issues, they can be given a one-time warning (prior to dismissal), or, could be immediately dismissed and asked to leave the premises, dependent upon the nature/severity of the issue, and/or at the discretion of the Institution Representative. This can include, but is not limited to: theft, smoking on the premises, verbal, physical, sexual inappropriateness and/or aggression.\n\nDismissal - Absenteeism & Lack of Communication\nWhen a student becomes absent without explanation, does not reply to email, and misses a mandatory scheduled follow-up conversation, they will be dismissed. Typically there will be no option to restart or retake the trimester, however in extraordinary situations this may be considered. As an example, if a student were to get lost hiking and spent many days in the wilderness before they were rescued by helicopter, we could make an exception if there was sufficient evidence provided."
+  },
+  {
+    "chunk_id": "StudentDismissal.md::chunk_0",
+    "filename": "StudentDismissal.md",
+    "title": "Studentdismissal",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/StudentDismissal.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Dismissal Overview\nA student can be dismissed for various reasons, including, but not limited to: Academic Dishonesty, Scores/Academic Probation, Behavioral Issues, Absences, etc…. A student can have an infraction that is serious in nature but does not warrant immediate dismissal. Or, a student can have an infraction that is egregious enough where an immediate dismissal is warranted. As such, there are various procedures that could potentially take effect.\nAcademic Probation/Scores\nA student must maintain a minimum Global Score of 80% per trimester to be in good academic standing. WIthin each trimester there are three months, and if a student is below 80% in one month they will be placed on academic probation. If at the end of the Trimester, the student has not raised their Global Score to the 80% minimum, they will be dismissed or they may be offered the opportunity to be transferred to a new cohort, to repeat their trimester. This decision is made at the sole discretion of the Institution Representative. \nProcess\nOnce a student’s dismissal has been confirmed via a face-to-face meeting and email, the dismissal paperwork will be sent to them via Docusign to confirm their:\nDismissal confirmation date\nOfficial Last Day of Attendance in the program"
+  },
+  {
+    "chunk_id": "StudentTransfers-FAQ.md::chunk_0",
+    "filename": "StudentTransfers-FAQ.md",
+    "title": "Studenttransfers Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/StudentTransfers-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Student Transfer FAQ\n\"What happens if a transfer is recommended by the School, but the student does not want to transfer or refuses to sign the transfer form?\"\nIf the transfer was recommended by staff due to low scores (under 80% at the end of the trimester) the student would be dismissed per the student achievement policy, as listed in the Student Catalog.\n\"How many times can a student transfer?\"\nStudents are allowed to transfer once within a trimester. For example, if a student in Cohort 8 needs to repeat their second trimester, they could transfer to Cohort 9’s second trimester. They, however, would not then be able to redo this same trimester by transferring to from Cohort 9 to Cohort 10. As such, they would be dismissed from the program due to their scores, per the student achievement policy. \n\"Can a student transfer more than one cohort?\"\nIt is not recommended for a student to transfer more than one cohort."
+  },
+  {
+    "chunk_id": "StudentTransfers.md::chunk_0",
+    "filename": "StudentTransfers.md",
+    "title": "Studenttransfers",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/StudentTransfers.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Transfers Overview\nThere are two scenarios in which a student may be transferred. These transfers are at the discretion of the Institution Representative:\nA student may request to be transferred to the next cohort due to academic, financial, personal, or other reasons. \nA student is recommended by the Curriculum Team to be transferred to the next cohort due to scores and would restart their trimester. If students are transferred during the 30-day Trial Period, they will be asked to sign a new Enrollment Agreement and will begin a new 30-day Trial Period once they restart the program with their new cohort. \nProcess\nThe student and staff will discuss via email or in-person meeting the transfer request/suggestion and the decision will be made whether to transfer soon afterward. Once the transfer is approved by both parties the transfer paperwork will be sent to the student via DocuSign to confirm:\nThe student’s start date and updated graduation date\nThe requirements to start with a new cohort"
+  },
+  {
+    "chunk_id": "TechnicalWriting-FAQ.md::chunk_0",
+    "filename": "TechnicalWriting-FAQ.md",
+    "title": "Technicalwriting Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/TechnicalWriting-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Technical Writing FAQ\n\"Why are the blog instructions so vague? How do I know what to write about?\"\nWe do not outline all the requirements because part of these challenges is to teach/learn/experience how to find what needs to be said on a topic that's new to you. You may not know what needs to be explained to a reader, but your research on the topic should help guide you. \n\"If the blog should be understood by beginners, why is there an expectation of having in-depth explanations, even to the point of using jargon beginners may not understand?\"\nEven if your audience is beginners, we must trust that they could understand a highly technical topic if it is explained well. Be sure to not only use appropriate jargon but to define the jargon you use. After reading your blog, the hope is that your audience will know the technical topic at the deepest level possible.\n“My reviewer scored me more strictly than others. Can’t we make this more standardized?”\nEach student is entrusted to score fairly and to the best of their ability. We understand that there may be a variance between how reviewers score, but it also reflects the interpretation and understanding of a general reader audience. \n\"Can I write other technical blogs outside of school projects?\"\nOf course! You're encouraged to share them with staff and peers as well. If you're interested in writing more but don't know what to write about, here are some ideas:\nKeeping a devblog for big projects is a great way to document processes, successes, failures, and to-dos.\nIf you find a framework, SDK, API, etc. has limited or confusing documentation, write a tutorial to help others with the problems that you've encountered."
+  },
+  {
+    "chunk_id": "TechnicalWriting.md::chunk_0",
+    "filename": "TechnicalWriting.md",
+    "title": "Technicalwriting",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/TechnicalWriting.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Technical Writing Overview\nTechnical writing is an invaluable skill and an excellent way to articulate and share your knowledge. It's not enough to just be able to code; being able to explain the concepts behind the code proves deeper understanding as well as the ability to communicate with others.\nTechnical Writing Basics\nYou will write several blogs during your time as a student. Technical writing pieces are included in both project assignments and as extracurricular assignments from staff. \nThe general requirements for all blogs are as follow:\nHave at least one picture at the top of the blog post\nPublish your blog post on Medium or LinkedIn\nShare your blog post at least on LinkedIn\nWrite professionally and intelligibly\nExplain every step/concept you know, and give examples -- a total beginner should understand what you have written\nPlease remember that these blogs must be written in English to further your technical ability in a variety of settings\nRemember that future employers will see your articles; take your writing seriously and produce something that will be an asset to your future\nBlogs are manually reviewed by a staff member, a ST, or a peer and are evaluated on how well they meet the above requirements as well as specific requirements based on topic, which is listed in the associated project.\nThis should go without saying, but plagiarism is unacceptable."
+  },
+  {
+    "chunk_id": "TextEditors.md::chunk_0",
+    "filename": "TextEditors.md",
+    "title": "Texteditors",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/TextEditors.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Text Editor Overview\nAt Holberton, you have the choice of using either Emacs or Vim as your text editors. Other text editors or IDEs are not allowed for your project work. \nEmacs Tips\nPractice Emacs Shortcuts \nSetting up Emacs to work with `betty` coding style\nIndentation for Python: Add to your `.emacs` file\n;; fix for python indent bug(add-hook 'python-mode-hook  (lambda () (setq python-indent-offset 4)))\nVim Tips\nPractice Vim Shortcuts \nSetting up Vim to work with `betty` coding style\nAs an engineer, you may find yourself in an environment where you cannot install an IDE and the only editors available to you are Emacs or Vim (especially in sysadmin / devops!). Knowing how to utilize either of these editors gives you more flexibility as an engineer. You can use whatever text editor / IDE you like outside of Holberton, but within the context of school projects, you must use Emacs or Vim."
+  },
+  {
+    "chunk_id": "TheFramework.md::chunk_0",
+    "filename": "TheFramework.md",
+    "title": "Theframework",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/TheFramework.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Overview\nOften times, when people hear of a school without professors or lectures, they question if the experience is pure chaos; to the contrary, peer learning facilitated by Holberton’s learning methodology - referred to as The Framework - creates a safe, collaborative space where critical thinking, personal growth, and community development can thrive.\nThe Holberton learning methodology subscribes to a balance of self-efficacy and collaboration - the truth that we, indeed, go farther when we go together. A community will be as strong as those within it that are struggling, so each individual has a responsibility to themselves and their future to take full ownership of their success as well as the work it requires. That said, once they’ve exhausted those means of achieving understanding and success alone, they must reach out to others who in turn will respectfully acknowledge the work that that individual invested prior to asking for help.\n\nThe 0x0C steps of the Framework are as follows:\n0. Read\n1. Think\n2. Think more and Whiteboard\n3. Ask why?\n4. Read the error messages\n5. Google\n6. Google again\n7. Ask a peer\n8. Ask more peers\n9. Ask your TA\n10. Ask other TAs\n11. Ask Staff/Alumni/Professional"
+  },
+  {
+    "chunk_id": "WeekZero-FAQ.md::chunk_0",
+    "filename": "WeekZero-FAQ.md",
+    "title": "Weekzero Faq",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/WeekZero-FAQ.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Week Zero FAQ\n\"Do I need to be on-site for Week Zero?\"\nYes, all Week Zero days are mandatory and you will miss critical information as well as the opportunity to meet your peers if you are not here. This is a physical school and all of our methodology's benefits only apply if you are physically present.\n\"The first week has been so overwhelming, I don't think I can keep up with the program.\"\nThe program is intense and students hit the ground running from their very first day on site. However, you're not in this program alone; you have a cohort of peers and a network of alumni and professional advisors here to help you along your way. If you're struggling, please reach out so that we can support you!\n\"Why do I have to use Emacs/Vim, why can't I use an IDE like VSCode or Atom?\"\nAs an engineer, you may find yourself in an environment where you cannot install an IDE and the only editors available to you are Emacs or Vim. Knowing how to utilize either of these gives you more flexibility as an engineer. You can use whatever text editor / IDE you like outside of Holberton, but within the context of school projects, you must use Emacs or Vim. (See: Text Editors)"
+  },
+  {
+    "chunk_id": "WeekZero.md::chunk_0",
+    "filename": "WeekZero.md",
+    "title": "Weekzero",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/WeekZero.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Week Zero Overview\nWeek Zero is not only your introduction to programming but also your introduction to Holberton School and our methodology and ethos. Everything you learn during Week Zero will be utilized throughout your time here as a student.\nWeek Zero Basics\nWeek Zero covers the following:\nTechnical Concepts\nVagrant\nGithub\nEmacs\nVi(m)\nBash\nHolberton Methodology\nLearning How to Learn\nThe Framework\nPeer Learning and Peer Learning Day (PLD)\nProjects and Project-Based Learning\nThe Checker\nAttendance and PTO\nSoft Skills and Standup Presentations\nCaptain's Logs"
+  },
+  {
+    "chunk_id": "Withdrawals-Overview.md::chunk_0",
+    "filename": "Withdrawals-Overview.md",
+    "title": "Withdrawals Overview",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/Withdrawals-Overview.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Withdrawals Overview\nIf a student expresses a desire to withdraw from the program they will request a withdrawal from the Institution Representative via in-person communication, followed by email and/or written letter.\nProcess\nOnce a student confirms by email their desire to withdraw from the program, the withdrawal confirmation paperwork will be sent to them via Docusign to confirm their:\nWithdrawal confirmation date\nOfficial Last Day of Attendance in the program\nThey will additionally be sent a Withdrawal Questionnaire to be filled out as a part of their withdrawal process."
+  },
+  {
+    "chunk_id": "WorkingRemotely-Communication.md::chunk_0",
+    "filename": "WorkingRemotely-Communication.md",
+    "title": "Workingremotely Communication",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/WorkingRemotely-Communication.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Communication \nDo not be afraid to over communicate with your cohort or the staff as it is better to have done so to gain a clear understanding of something rather than not. There are many different tools you can use to communicate with your peers, including Slack and Google Hangouts, and we advise you take advantage of them now more than ever while working from home. \nIf you are working on a project with a partner, we encourage you to call or video chat them whenever you have a question or need clarification on something. It is far easier to talk to somebody when you can see and hear them than when having to talk to them via messaging. Miscommunications will happen, but to cut down on this, please be sure you are doing your part to communicate with your peers.  \nSlack channels are a great avenue if you are looking for assistance or advice from your cohort or the SF Holberton community at large. These are great spaces to get community input with any questions or ideas you may have.\nRemote Meetings\nWhen joining remote meetings, best practice is to have your webcam on and to but your mic unless you are speaking. This is so there is better communication between individuals and so you can still have face-to-face interactions even while working remotely."
+  },
+  {
+    "chunk_id": "WorkingRemotely-CreatingSpace.md::chunk_0",
+    "filename": "WorkingRemotely-CreatingSpace.md",
+    "title": "Workingremotely Creatingspace",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/WorkingRemotely-CreatingSpace.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Creating Space\nIf you do not already have a space to work from in your home, then it is best you create one if possible. \nPick an area with the following qualities:\nQuiet, has the least amount of distractions.\nBig enough to fit a chair and desk.\nNear a power source.\nHas a strong Wi-Fi signal.\nYou want to make sure that you are not working in a place that is too comfortable, such as your bed, couch, or anywhere you’ve fallen asleep before!"
+  },
+  {
+    "chunk_id": "WorkingRemotely-Purpose&Routine.md::chunk_0",
+    "filename": "WorkingRemotely-Purpose&Routine.md",
+    "title": "Workingremotely Purpose&Routine",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/WorkingRemotely-Purpose&Routine.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Purpose\nThis guide is to assist your transition from working on campus to working from home. \nDue to the COVID-19 pandemic, it has been advised we participate in social distancing to mitigate the spread of this virus. Fortunately, Holberton is able to continue with operations remotely, to ensure the health and safety of our students and communities. \nThis transition period will pose different challenges for us all and our hope for this guide is to provide you with ways to make this transition smoother. \nRoutine\nCreating a routine that works best for you and sticking with it is going to be most helpful to you. You want to do your best to treat everyday that you work from home as you would working on campus, with the necessary adjustments. \nThis includes making sure to wake up at a decent hour and get dressed, which will help put you in the mindset to get started on your work. Having a schedule will greatly help you establish a routine. (Please review the section on Time Management for more direction).\nMake sure your schedule includes the following:\nThe time your day begins. \nThe things you’ll need to complete for the day, including homework, chores, and errands.\nBreaks for rejuvenation and rest.\nWhen the workday is over."
+  },
+  {
+    "chunk_id": "WorkingRemotely-SettingBoundaries.md::chunk_0",
+    "filename": "WorkingRemotely-SettingBoundaries.md",
+    "title": "Workingremotely Settingboundaries",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/WorkingRemotely-SettingBoundaries.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Setting Boundaries\nAt this time, many people have been asked to make the transition to work from home and so you may find yourself having to share your day with roommates, children or family. It’s natural that those you live with will want to connect and spend time with you now that you are home and it would be best to establish boundaries with them early on if possible. This is to ensure your environment is conducive to productivity. You should share with your housemates your work hours, and more specifically any times in particular you’ll need a quiet space for meetings or video chat sessions.  \nThose with children will face many challenges as they will need to be homeschooled as well. If your child is old enough that they don’t need to be constantly supervised, work in a different room from where they will be stationed. For those whose children are too young to be unsupervised for long periods of time, you can try setting up a workstation for them near you. The hope here is that the child will follow your example by also quietly doing work. Aside from providing your child with books, games, arts & crafts projects, there are many online resources to help keep children occupied."
+  },
+  {
+    "chunk_id": "WorkingRemotely-TimeManagement.md::chunk_0",
+    "filename": "WorkingRemotely-TimeManagement.md",
+    "title": "Workingremotely Timemanagement",
+    "filepath": "/mnt/c/Users/evisp/Documents/Holberton/rag_holberton/data/raw/WorkingRemotely-TimeManagement.md",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "content": "Time Management\nIt will increasingly be important that you are able to manage your time efficiently so that you are as productive as you can be while working from home. In addition, the benefits of effectively managing time exceed well beyond the work you’ll accomplish at Holberton, it will provide you with the tools to sustain work & life balance. \nWhen students are able to efficiently manage their time, the following is more likely to  occur:\nStudents meet their assignment deadlines.\nQuality of work improves.\nQuality of life improves.\nImprovement in quality of life due to a decrease in stress.\nYou can start assessing all the tasks you will need to complete and this includes your Holberton assignments as well as other tasks you need to complete, including errands. This way, you will get a clear picture of your day.\nHelpful tips:\nFocus on doing one task at a time.\nSchedule adequate breaks.\nMinimize distractions. \nMake realistic goals.\n \nIf you find yourself having trouble getting started with your goals for the day, try the ten minute rule. Time yourself to work on a task for ten minutes, once that time is up ask yourself if you need a break or if you can go another ten minutes. If you need a break, take a few minutes to do that and continue to work in ten minute increments until you get into a flow. \n\nFor added support, designate a buddy you can report to on your progress\nKnow when to ask for help or when to say no to additional tasks\nMake realistic goals about the items you can accomplish in a day\nTo be more efficient with your time you can keep a productivity journal to track how long each task takes you to complete so that you can make adjustments to your schedules moving forward."
+  }
+]
