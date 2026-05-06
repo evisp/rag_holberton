@@ -18,7 +18,11 @@ Rules you must follow:
 """
 
 
-def build_prompt(question: str, chunks: list[dict]) -> str:
+def build_prompt(question: str, chunks: list[dict], history: list[dict] = None) -> str:
+    """
+    Assembles context chunks and optional conversation history
+    into a prompt for Gemini.
+    """
     context_blocks = []
     for i, chunk in enumerate(chunks, 1):
         block = (
@@ -29,9 +33,21 @@ def build_prompt(question: str, chunks: list[dict]) -> str:
 
     context_text = "\n\n".join(context_blocks)
 
+    history_text = ""
+    if history:
+        turns = []
+        for turn in history:
+            turns.append(f"Student: {turn['question']}")
+            turns.append(f"Assistant: {turn['answer']}")
+        history_text = (
+            "\n--- CONVERSATION HISTORY ---\n"
+            + "\n".join(turns)
+            + "\n--- END HISTORY ---\n\n"
+        )
+
     return f"""Use the following excerpts from Holberton internal documents
 to answer the question.
-
+{history_text}
 --- CONTEXT START ---
 {context_text}
 --- CONTEXT END ---
@@ -39,6 +55,53 @@ to answer the question.
 Question: {question}
 
 Answer:"""
+
+
+def generate_answer(question: str, chunks: list[dict], history: list[dict] = None) -> dict:
+    """
+    Calls Gemini with retrieved context and conversation history.
+    Returns structured response with answer, sources, and model used.
+    """
+    if not chunks:
+        return {
+            "answer": "I could not find any relevant documents for your question.",
+            "sources": [],
+            "model": None,
+        }
+
+    prompt     = build_prompt(question, chunks, history=history)
+    model_obj  = genai.GenerativeModel(
+        model_name=LLM_MODEL,
+        system_instruction=SYSTEM_PROMPT,
+    )
+
+    chain  = [LLM_MODEL] + [m for m in LLM_FALLBACK_CHAIN if m != LLM_MODEL]
+    answer = None
+    model_used = None
+
+    for model_name in chain:
+        print(f"    → trying {model_name}...")
+        try:
+            result = _try_model(model_name, prompt)
+            if result is not None:
+                answer     = result
+                model_used = model_name
+                break
+        except Exception as e:
+            print(f"    [{model_name}] error: {e}")
+            continue
+
+    if answer is None:
+        answer = (
+            "All available models are currently rate limited. "
+            "Please wait a minute and try again."
+        )
+
+    return {
+        "answer":  answer,
+        "sources": deduplicate_sources(chunks),
+        "model":   model_used,
+    }
 
 
 def _try_model(model_name: str, prompt: str, retries: int = 2) -> str | None:
@@ -73,51 +136,6 @@ def _try_model(model_name: str, prompt: str, retries: int = 2) -> str | None:
                 raise
 
     return None
-
-
-def generate_answer(question: str, chunks: list[dict]) -> dict:
-    """
-    Tries each model in the fallback chain until one succeeds.
-    Returns structured response with answer, sources, and model used.
-    """
-    if not chunks:
-        return {
-            "answer": "I could not find any relevant documents for your question.",
-            "sources": [],
-            "model": None,
-        }
-
-    prompt = build_prompt(question, chunks)
-
-    # Build chain: start from configured primary, then rest of fallbacks
-    chain = [LLM_MODEL] + [m for m in LLM_FALLBACK_CHAIN if m != LLM_MODEL]
-
-    answer = None
-    model_used = None
-
-    for model_name in chain:
-        print(f"    → trying {model_name}...")
-        try:
-            result = _try_model(model_name, prompt)
-            if result is not None:
-                answer = result
-                model_used = model_name
-                break
-        except Exception as e:
-            print(f"    [{model_name}] error: {e}")
-            continue
-
-    if answer is None:
-        answer = (
-            "All available models are currently rate limited. "
-            "Please wait a minute and try again."
-        )
-
-    return {
-        "answer": answer,
-        "sources": deduplicate_sources(chunks),
-        "model": model_used,
-    }
 
 
 def deduplicate_sources(chunks: list[dict]) -> list[dict]:

@@ -3,6 +3,8 @@ const input      = document.getElementById('question-input');
 const sendBtn    = document.getElementById('send-btn');
 const emptyState = document.getElementById('empty-state');
 
+let sessionId = crypto.randomUUID();
+
 input.addEventListener('input', () => {
   input.style.height = 'auto';
   input.style.height = Math.min(input.scrollHeight, 120) + 'px';
@@ -22,9 +24,18 @@ function fillQuestion(btn) {
   input.focus();
 }
 
-function clearChat() {
+async function clearChat() {
+  try {
+    await fetch('/clear', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify({ session_id: sessionId }),
+    });
+  } catch { /* silent fail */ }
+
   thread.querySelectorAll('.msg-row').forEach(m => m.remove());
   emptyState.style.display = '';
+  sessionId = crypto.randomUUID();
 }
 
 function formatText(text) {
@@ -73,7 +84,7 @@ function appendMessage(role, content, sources = []) {
   if (emptyState) emptyState.style.display = 'none';
 
   const isUser = role === 'user';
-  const row = document.createElement('div');
+  const row    = document.createElement('div');
   row.className = `msg-row ${role}`;
 
   row.innerHTML = `
@@ -125,7 +136,7 @@ async function sendQuestion() {
     const res  = await fetch('/ask', {
       method:  'POST',
       headers: { 'Content-Type': 'application/json' },
-      body:    JSON.stringify({ question }),
+      body:    JSON.stringify({ question, session_id: sessionId }),
     });
     const data = await res.json();
     removeTyping();
@@ -133,6 +144,7 @@ async function sendQuestion() {
     if (data.error) {
       appendMessage('bot', `Something went wrong: ${data.error}`);
     } else {
+      if (data.session_id) sessionId = data.session_id;
       appendMessage('bot', data.answer, data.sources);
     }
 

@@ -29,6 +29,10 @@ CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", 64))
 # Retrieval
 TOP_K = int(os.getenv("TOP_K", 5))
 
+# Memory
+MAX_HISTORY = int(os.getenv("MAX_HISTORY", 5))
+SESSION_TTL = int(os.getenv("SESSION_TTL", 3600))
+
 # Flask
 SECRET_KEY = os.getenv("SECRET_KEY", "dev-secret-change-in-prod")
 FLASK_DEBUG = os.getenv("FLASK_DEBUG", "1") == "1"
