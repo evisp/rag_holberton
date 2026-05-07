@@ -3,6 +3,8 @@ const input      = document.getElementById('question-input');
 const sendBtn    = document.getElementById('send-btn');
 const emptyState = document.getElementById('empty-state');
 
+
+
 let sessionId = crypto.randomUUID();
 
 input.addEventListener('input', () => {
@@ -44,6 +46,8 @@ function formatText(text) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/^\* (.+)/gm, '<li>$1</li>')
+    .replace(/(<li>.*<\/li>)/s, '<ul style="margin:8px 0 0 16px;padding:0">$1</ul>')
     .replace(/\n/g, '<br>');
 }
 
