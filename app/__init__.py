@@ -15,10 +15,15 @@ def create_app():
 
     CORS(app)
 
+    from app.services.feedback import init_db
+    init_db()
+
     from app.routes.chat import chat_bp
     from app.routes.health import health_bp
+    from app.routes.eval import eval_bp
 
     app.register_blueprint(chat_bp)
     app.register_blueprint(health_bp)
+    app.register_blueprint(eval_bp)
 
     return app

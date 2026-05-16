@@ -1,6 +1,7 @@
 from flask import Blueprint, jsonify
 from app.services.retriever import get_retriever
 from app.services.memory import get_memory
+from app.services.feedback import get_stats
 from app.config import LLM_MODEL, EMBEDDING_MODEL, VECTOR_STORE_PATH
 
 health_bp = Blueprint("health", __name__)
@@ -16,17 +17,16 @@ def health():
         index_ok     = False
         vector_count = 0
 
-    memory_stats = get_memory().stats()
-
     return jsonify({
-        "status": "ok" if index_ok else "degraded",
+        "status":       "ok" if index_ok else "degraded",
         "vector_store": {
             "loaded":  index_ok,
             "vectors": vector_count,
             "path":    str(VECTOR_STORE_PATH),
         },
-        "memory": memory_stats,
-        "models": {
+        "memory":   get_memory().stats(),
+        "feedback": get_stats(),
+        "models":   {
             "llm":       LLM_MODEL,
             "embedding": EMBEDDING_MODEL,
         },

@@ -494,3 +494,60 @@ kbd {
   font-family: var(--font-body);
   color: var(--text-muted);
 }
+
+
+/* ── Feedback ─────────────────────────────────────────── */
+
+.feedback-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.feedback-label {
+  font-size: 11.5px;
+  color: var(--text-dim);
+  transition: color .2s;
+  min-width: 140px;
+}
+
+.feedback-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px 9px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-muted);
+  transition: background .15s, border-color .15s, color .15s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+.feedback-btn:hover {
+  border-color: #ccc;
+  color: var(--text-primary);
+}
+
+.feedback-btn.voted-up {
+  background: #f0fdf4;
+  border-color: #22c55e;
+  color: #15803d;
+  font-weight: 500;
+}
+
+.feedback-btn.voted-down {
+  background: var(--cherry-light);
+  border-color: var(--cherry);
+  color: var(--cherry-dark);
+  font-weight: 500;
+}
+
+.feedback-btn:disabled {
+  cursor: default;
+  opacity: .65;
+}

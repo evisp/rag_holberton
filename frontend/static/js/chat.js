@@ -3,8 +3,6 @@ const input      = document.getElementById('question-input');
 const sendBtn    = document.getElementById('send-btn');
 const emptyState = document.getElementById('empty-state');
 
-
-
 let sessionId = crypto.randomUUID();
 
 input.addEventListener('input', () => {
@@ -84,7 +82,68 @@ function buildSources(sources) {
   `;
 }
 
-function appendMessage(role, content, sources = []) {
+function buildFeedback(question, answer) {
+  const uid = Math.random().toString(36).slice(2, 8);
+  return `
+    <div class="feedback-wrap" id="fb-${uid}">
+      <span class="feedback-label">Was this helpful?</span>
+      <button class="feedback-btn"
+        id="up-${uid}"
+        data-uid="${uid}"
+        data-vote="up"
+        data-question="${encodeURIComponent(question)}"
+        data-answer="${encodeURIComponent(answer)}"
+        onclick="sendFeedback(this)"
+        title="Helpful">
+        <i class="bi bi-hand-thumbs-up"></i> Yes
+      </button>
+      <button class="feedback-btn"
+        id="down-${uid}"
+        data-uid="${uid}"
+        data-vote="down"
+        data-question="${encodeURIComponent(question)}"
+        data-answer="${encodeURIComponent(answer)}"
+        onclick="sendFeedback(this)"
+        title="Not helpful">
+        <i class="bi bi-hand-thumbs-down"></i> No
+      </button>
+    </div>
+  `;
+}
+
+
+async function sendFeedback(btn) {
+  const uid      = btn.dataset.uid;
+  const vote     = btn.dataset.vote;
+  const question = decodeURIComponent(btn.dataset.question);
+  const answer   = decodeURIComponent(btn.dataset.answer);
+
+  const upBtn   = document.getElementById(`up-${uid}`);
+  const downBtn = document.getElementById(`down-${uid}`);
+  const wrap    = document.getElementById(`fb-${uid}`);
+
+  upBtn.disabled   = true;
+  downBtn.disabled = true;
+
+  if (vote === 'up') {
+    upBtn.classList.add('voted-up');
+    wrap.querySelector('.feedback-label').textContent = 'Thanks for the feedback!';
+  } else {
+    downBtn.classList.add('voted-down');
+    wrap.querySelector('.feedback-label').textContent = 'Thanks — we will improve!';
+  }
+
+  try {
+    await fetch('/feedback', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify({ session_id: sessionId, question, answer, vote }),
+    });
+  } catch { /* silent fail */ }
+}
+
+
+function appendMessage(role, content, sources = [], question = '') {
   if (emptyState) emptyState.style.display = 'none';
 
   const isUser = role === 'user';
@@ -96,6 +155,7 @@ function appendMessage(role, content, sources = []) {
     <div class="msg-content">
       <div class="bubble ${role}">${formatText(content)}</div>
       ${isUser ? '' : buildSources(sources)}
+      ${isUser ? '' : buildFeedback(question, content)}
     </div>
   `;
 
@@ -149,7 +209,7 @@ async function sendQuestion() {
       appendMessage('bot', `Something went wrong: ${data.error}`);
     } else {
       if (data.session_id) sessionId = data.session_id;
-      appendMessage('bot', data.answer, data.sources);
+      appendMessage('bot', data.answer, data.sources, question);
     }
 
   } catch {
