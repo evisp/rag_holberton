@@ -1,0 +1,122 @@
+[
+  {
+    "id": "eval_001",
+    "topic": "academic_standing",
+    "question": "What is the minimum Global Score a student must maintain per trimester?",
+    "ground_truth": "A student must maintain a minimum Global Score of 80% per trimester to be in good academic standing."
+  },
+  {
+    "id": "eval_002",
+    "topic": "academic_standing",
+    "question": "When are academic score benchmarks measured at Holberton?",
+    "ground_truth": "Academic score benchmarks are set at midnight between Sunday and Monday local time after each trimester end — at the 3 month, 6 month, and 9 month marks of the Foundations and Specialization years."
+  },
+  {
+    "id": "eval_003",
+    "topic": "academic_standing",
+    "question": "What tracks make up the composite academic score during Foundations?",
+    "ground_truth": "The composite score during Foundations is an average between the social track, technical track, and professionalism track."
+  },
+  {
+    "id": "eval_004",
+    "topic": "dismissal",
+    "question": "What happens if a student is below 80% for one month within a trimester?",
+    "ground_truth": "If a student is below 80% in one month within a trimester, they will be placed on academic probation."
+  },
+  {
+    "id": "eval_005",
+    "topic": "dismissal",
+    "question": "What are the possible outcomes if a student fails to reach 80% by the end of a trimester?",
+    "ground_truth": "If a student has not raised their Global Score to the 80% minimum by the end of the trimester, they will be dismissed or may be offered the opportunity to be transferred to a new cohort to repeat their trimester. This decision is made at the sole discretion of the Institution Representative."
+  },
+  {
+    "id": "eval_006",
+    "topic": "dismissal",
+    "question": "What happens after a student dismissal is confirmed?",
+    "ground_truth": "Once a student's dismissal has been confirmed via a face-to-face meeting and email, the dismissal paperwork will be sent to them via Docusign to confirm their dismissal confirmation date and official last day of attendance."
+  },
+  {
+    "id": "eval_007",
+    "topic": "cheating",
+    "question": "What are the possible consequences if a student is caught cheating?",
+    "ground_truth": "If caught cheating, a student could receive a one-time warning prior to dismissal, or could be immediately dismissed. This depends on the nature and severity of the academic dishonesty and is at the discretion of the Institution Representative."
+  },
+  {
+    "id": "eval_008",
+    "topic": "cheating",
+    "question": "Why should a student not look at others' code before completing their own work?",
+    "ground_truth": "Looking at others' code before completing your own work locks you into thinking about the problem in the way you have already seen it done, and parts of the other person's code will likely stick in your memory and wind up in your own codebase, which qualifies as plagiarism."
+  },
+  {
+    "id": "eval_009",
+    "topic": "campus_transfers",
+    "question": "What are the conditions required to transfer to another campus during the foundational program?",
+    "ground_truth": "A campus transfer during the foundational part of the program requires an 80% trimester average or higher, and the transfer must take place during the break."
+  },
+  {
+    "id": "eval_010",
+    "topic": "campus_transfers",
+    "question": "How can a student complete their specialization at another campus?",
+    "ground_truth": "If a student would like to complete their specialization at another campus, they should speak with their campus director who will help them explore options."
+  },
+  {
+    "id": "eval_011",
+    "topic": "project_scoring",
+    "question": "How is a project's overall score calculated?",
+    "ground_truth": "The overall project score is calculated as: Overall Score = 100% x Points Earned / Total Points Available. All checks are pass/fail — a passed check receives full points while a failed check receives 0 points."
+  },
+  {
+    "id": "eval_012",
+    "topic": "project_scoring",
+    "question": "What is the deadline for completing a Manual QA review?",
+    "ground_truth": "Manual QA reviews must be completed within 1 week of the first deadline, otherwise 0 points will be given for all tasks requiring such a review. It is the student's responsibility to ensure Manual QA reviews are completed before the deadline."
+  },
+  {
+    "id": "eval_013",
+    "topic": "project_scoring",
+    "question": "What does the Checker do and how often do its checks change?",
+    "ground_truth": "The Checker is Holberton's Correction System used to score all Auto QA reviews. The checks are randomized between students and change every 24 hours."
+  },
+  {
+    "id": "eval_014",
+    "topic": "evaluation_quizzes",
+    "question": "How is the score for an evaluation quiz calculated?",
+    "ground_truth": "Evaluation quiz scoring gives 1 point for a correct answer, 0.5 points for an 'I don't know' answer, and 0 points for a wrong answer. The system also tracks time spent outside the quiz page and lowers the final grade by 1% for every 10 seconds spent outside."
+  },
+  {
+    "id": "eval_015",
+    "topic": "evaluation_quizzes",
+    "question": "What is the maximum score available if a student starts a quiz the day after it is released?",
+    "ground_truth": "If a quiz is done the day after it is released, the maximum score available is 60%."
+  },
+  {
+    "id": "eval_016",
+    "topic": "mock_interviews",
+    "question": "Why are mock interviews mandatory at Holberton?",
+    "ground_truth": "Mock interviews are mandatory because technical interviews for software engineering positions are draining intellectually, emotionally, and physically. Students need to be able to clearly communicate their thought process despite pressure, stress, and exhaustion, and this stamina requires consistent practice."
+  },
+  {
+    "id": "eval_017",
+    "topic": "mock_interviews",
+    "question": "What happens if a student's interviewer is 5 minutes late to a mock interview?",
+    "ground_truth": "If the interviewer is 5 minutes late, both students will swap places — the interviewee will become the interviewer, and will be the interviewee later in the day."
+  },
+  {
+    "id": "eval_018",
+    "topic": "peer_learning",
+    "question": "What are the hours and attendance rules for Peer Learning Days?",
+    "ground_truth": "PLDs are mandatory on-site days from 9:00 AM to 3:00 PM. If a student cannot be present or on time, they must use a PTO."
+  },
+  {
+    "id": "eval_019",
+    "topic": "peer_learning",
+    "question": "When are laptops and screens allowed during a Peer Learning Day?",
+    "ground_truth": "No laptops, tablets, or screens are allowed until all tasks have been whiteboarded and understood by the entirety of the group. After that, students may return to computers to pair or group program."
+  },
+  {
+    "id": "eval_020",
+    "topic": "specializations",
+    "question": "What specializations are available to students after completing Foundations?",
+    "ground_truth": "After completing Foundations, students can choose from Machine Learning, AR/VR, Low-Level and Algorithms, or Full-Stack Web Development."
+  }
+]
