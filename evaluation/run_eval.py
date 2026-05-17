@@ -78,8 +78,8 @@ Generated answer: {generated}"""
                 }
             except Exception as e:
                 if "429" in str(e) and attempt == 0:
-                    print(f"      rate limited on {model_name}, waiting 15s...")
-                    time.sleep(15)
+                    print(f"      rate limited on {model_name}, waiting 30s...")
+                    time.sleep(30)
                 else:
                     print(f"      [{model_name}] error: {e}")
                     break
@@ -94,7 +94,7 @@ Generated answer: {generated}"""
 
 def run_evaluation():
     print("\n" + "★" * 55)
-    print("  Holberton RAG — Phase 5 Evaluation")
+    print("  Holberton RAG — Evaluation")
     print("  Gemini-as-judge scoring")
     print("★" * 55)
 
@@ -102,13 +102,13 @@ def run_evaluation():
         eval_set = json.load(f)
 
     print(f"\n  Loaded {len(eval_set)} evaluation questions")
-    print(f"  Scoring: faithfulness + relevance (1–5 each)\n")
+    print(f"  Scoring: faithfulness + relevance (1–5 each)")
+    print(f"  Pacing: 8s between questions, 60s pause every 5\n")
 
     results     = []
     total_faith = 0
     total_rel   = 0
     failed      = 0
-
     topic_scores = {}
 
     for i, item in enumerate(eval_set, 1):
@@ -119,8 +119,12 @@ def run_evaluation():
 
         if "could not find" in generated.lower() or "rate limited" in generated.lower():
             print(f"         ⚠ RAG returned no answer — skipping judge")
-            scores = {"faithfulness": 0, "relevance": 0,
-                      "reasoning": "RAG returned no answer", "model": None}
+            scores = {
+                "faithfulness": 0,
+                "relevance":    0,
+                "reasoning":    "RAG returned no answer",
+                "model":        None,
+            }
             failed += 1
         else:
             scores = judge_answer(
@@ -160,19 +164,24 @@ def run_evaluation():
               f"R [{bar_r}] {r_score}/5")
         print(f"         {scores.get('reasoning', '')[:70]}")
 
-        time.sleep(2)
+        if i < len(eval_set):
+            if i % 5 == 0:
+                print(f"\n  Pausing 60s every 5 questions to reset rate limits...\n")
+                time.sleep(60)
+            else:
+                time.sleep(8)
 
     n = len(eval_set)
     avg_faith = round(total_faith / n, 2)
     avg_rel   = round(total_rel   / n, 2)
 
     summary = {
-        "total_questions":    n,
-        "failed_questions":   failed,
-        "avg_faithfulness":   avg_faith,
-        "avg_relevance":      avg_rel,
-        "overall_score":      round((avg_faith + avg_rel) / 2, 2),
-        "topic_breakdown":    {
+        "total_questions":  n,
+        "failed_questions": failed,
+        "avg_faithfulness": avg_faith,
+        "avg_relevance":    avg_rel,
+        "overall_score":    round((avg_faith + avg_rel) / 2, 2),
+        "topic_breakdown":  {
             topic: {
                 "avg_faithfulness": round(
                     sum(v["faithfulness"]) / len(v["faithfulness"]), 2),

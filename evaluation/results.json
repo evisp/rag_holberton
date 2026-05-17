@@ -1,9 +1,9 @@
 {
   "total_questions": 20,
   "failed_questions": 0,
-  "avg_faithfulness": 4.7,
-  "avg_relevance": 4.85,
-  "overall_score": 4.78,
+  "avg_faithfulness": 4.25,
+  "avg_relevance": 4.95,
+  "overall_score": 4.6,
   "topic_breakdown": {
     "academic_standing": {
       "avg_faithfulness": 5.0,
@@ -19,22 +19,22 @@
     },
     "campus_transfers": {
       "avg_faithfulness": 4.5,
-      "avg_relevance": 4.5
+      "avg_relevance": 5.0
     },
     "project_scoring": {
-      "avg_faithfulness": 4.0,
-      "avg_relevance": 4.33
+      "avg_faithfulness": 3.67,
+      "avg_relevance": 4.67
     },
     "evaluation_quizzes": {
-      "avg_faithfulness": 4.0,
+      "avg_faithfulness": 3.5,
       "avg_relevance": 5.0
     },
     "mock_interviews": {
-      "avg_faithfulness": 5.0,
+      "avg_faithfulness": 3.0,
       "avg_relevance": 5.0
     },
     "peer_learning": {
-      "avg_faithfulness": 5.0,
+      "avg_faithfulness": 3.5,
       "avg_relevance": 5.0
     },
     "specializations": {
@@ -50,15 +50,15 @@
       "ground_truth": "A student must maintain a minimum Global Score of 80% per trimester to be in good academic standing.",
       "generated": "A student must maintain a minimum Global Score of 80% per trimester to be in good academic standing.",
       "sources": [
-        "AcademicStanding.md",
         "StudentDismissal-Academic.md",
         "StudentDismissal.md",
-        "ProfessionalTrack-PTO.md",
-        "ProfessionalTrack.md"
+        "SpecializationValidation-Criteria.md",
+        "SpecializationValidation.md",
+        "ProfessionalTrack-PTO.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer is completely faithful to the ground truth and directly answers the question.",
+      "reasoning": "The generated answer is completely accurate and directly addresses the question by providing the exact minimum Global Score required per trimester.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -66,17 +66,17 @@
       "topic": "academic_standing",
       "question": "When are academic score benchmarks measured at Holberton?",
       "ground_truth": "Academic score benchmarks are set at midnight between Sunday and Monday local time after each trimester end — at the 3 month, 6 month, and 9 month marks of the Foundations and Specialization years.",
-      "generated": "Academic score benchmarks are measured at the midnight between Sunday and Monday local time after each trimester end. This occurs at the 3-month, 6-month, and 9-month marks of the Foundations and Specialization years.",
+      "generated": "Academic score benchmarks are measured at the midnight between Sunday and Monday local time after each trimester end. This means the performance expectations are evaluated at the 3-month, 6-month, and 9-month marks of the Foundations and Specialization years.",
       "sources": [
         "AcademicStanding.md",
+        "Specializations-FAQ3.md",
+        "SpecializationValidation.md",
         "ProjectScoring-Checker.md",
-        "EvaluationQuizzes.md",
-        "ProfessionalTrack-Tardiness.md",
-        "ProjectScoring.md"
+        "ProjectTypes.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer is completely faithful to the ground truth and directly and completely answers the question by specifying the exact timing and milestones for measuring academic score benchmarks.",
+      "reasoning": "The generated answer accurately reflects the timing and specific milestones mentioned in the ground truth for measuring academic score benchmarks.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -84,17 +84,17 @@
       "topic": "academic_standing",
       "question": "What tracks make up the composite academic score during Foundations?",
       "ground_truth": "The composite score during Foundations is an average between the social track, technical track, and professionalism track.",
-      "generated": "During the Foundations year, the composite academic score is an average between the social track, technical track, and professionalism track.",
+      "generated": "The composite academic score during Foundations is an average between the social track, technical track, and professionalism track.",
       "sources": [
         "AcademicStanding.md",
-        "ProfessionalTrack.md",
-        "ProjectScoring.md",
-        "StudentDismissal-Academic.md",
-        "ProjectScoring-TaskLevel.md"
+        "CurriculumFAQ6.md",
+        "Specializations-FAQ4.md",
+        "Specializations-FAQ.md",
+        "ProfessionalTrack-PTO.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer perfectly matches the ground truth and directly answers the question about the components of the composite academic score during Foundations.",
+      "reasoning": "The generated answer perfectly matches the ground truth in both content and phrasing, directly addressing the question.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -104,15 +104,15 @@
       "ground_truth": "If a student is below 80% in one month within a trimester, they will be placed on academic probation.",
       "generated": "If a student is below 80% in one month within a trimester, they will be placed on academic probation.",
       "sources": [
-        "AcademicStanding.md",
         "StudentDismissal-Academic.md",
         "StudentDismissal.md",
-        "StudentDismissal-Behavioral.md",
-        "ProfessionalTrack-PTO.md"
+        "StudentTransfers-FAQ.md",
+        "ProfessionalTrack-PTO.md",
+        "SpecializationValidation-Criteria.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer is perfectly faithful to the ground truth, as it states the exact consequence of a student falling below 80% for one month within a trimester, and it directly answers the question.",
+      "reasoning": "The generated answer perfectly matches the ground truth and directly addresses the question.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -120,17 +120,17 @@
       "topic": "dismissal",
       "question": "What are the possible outcomes if a student fails to reach 80% by the end of a trimester?",
       "ground_truth": "If a student has not raised their Global Score to the 80% minimum by the end of the trimester, they will be dismissed or may be offered the opportunity to be transferred to a new cohort to repeat their trimester. This decision is made at the sole discretion of the Institution Representative.",
-      "generated": "If a student fails to reach the minimum Global Score of 80% by the end of a trimester, they may be dismissed from the program or offered the opportunity to transfer to a new cohort or repeat the trimester. This decision is made at the sole discretion of the Institution Representative.\n\nIf the low scores led to a recommended transfer by the school, and the student refuses to sign the transfer form, they will be dismissed per the student achievement policy. A student is allowed to transfer once within a trimester, but repeating the same trimester by transferring to subsequent cohorts is not permitted and would result in dismissal due to scores.",
+      "generated": "If a student fails to reach the minimum Global Score of 80% by the end of the trimester, they may be dismissed or offered the opportunity to transfer to a new cohort to repeat their trimester. This decision is at the sole discretion of the Institution Representative. If a transfer is recommended due to low scores and the student refuses to sign the transfer form, they will be dismissed.",
       "sources": [
-        "AcademicStanding.md",
         "StudentDismissal-Academic.md",
+        "StudentTransfers-FAQ.md",
         "StudentDismissal.md",
-        "StudentDismissal-Behavioral.md",
-        "StudentTransfers-FAQ.md"
+        "ProfessionalTrack-PTO.md",
+        "CampusTransfers.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer accurately reflects the ground truth, detailing dismissal or transfer options and the institution's discretion, while also logically extending the policy regarding refusal of transfer and repeated trimester transfers.",
+      "reasoning": "The generated answer accurately reflects the ground truth by stating the possible outcomes of dismissal or transfer to a new cohort, and correctly attributes the decision-making authority to the Institution Representative.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -138,17 +138,17 @@
       "topic": "dismissal",
       "question": "What happens after a student dismissal is confirmed?",
       "ground_truth": "Once a student's dismissal has been confirmed via a face-to-face meeting and email, the dismissal paperwork will be sent to them via Docusign to confirm their dismissal confirmation date and official last day of attendance.",
-      "generated": "Once a student's dismissal has been confirmed via a face-to-face meeting and email, the dismissal paperwork will be sent to them via Docusign to confirm their dismissal confirmation date and official Last Day of Attendance in the program.",
+      "generated": "After a student's dismissal is confirmed via a face-to-face meeting and email, dismissal paperwork will be sent to them via Docusign to confirm their dismissal confirmation date and official last day of attendance in the program.",
       "sources": [
         "StudentDismissal.md",
         "StudentDismissal-Academic.md",
         "StudentDismissal-Behavioral.md",
-        "Withdrawals-Overview.md",
-        "StudentTransfers-FAQ.md"
+        "StudentTransfers-FAQ.md",
+        "Withdrawals-Overview.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer accurately reflects the information provided in the ground truth, directly answering the question about the steps following a confirmed student dismissal.",
+      "reasoning": "The generated answer accurately reflects all the information provided in the ground truth, directly answering the question about the steps following dismissal confirmation.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -156,13 +156,13 @@
       "topic": "cheating",
       "question": "What are the possible consequences if a student is caught cheating?",
       "ground_truth": "If caught cheating, a student could receive a one-time warning prior to dismissal, or could be immediately dismissed. This depends on the nature and severity of the academic dishonesty and is at the discretion of the Institution Representative.",
-      "generated": "If a student is caught cheating, they may receive a one-time warning before dismissal, or they could be immediately dismissed. This depends on the nature and severity of the academic dishonesty and is at the discretion of the Institution Representative. Cheating is not tolerated and can lead to expulsion.",
+      "generated": "If a student is caught cheating, they may receive a one-time warning prior to dismissal, or they could be immediately dismissed. This decision depends on the nature and severity of the academic dishonesty, and is at the discretion of the Institution Representative. Cheating is not tolerated at Holberton and can lead to dismissal, with potential consequences including being asked to meet with staff or expulsion.",
       "sources": [
         "Cheating-Overview.md",
-        "Cheating-Examples.md",
         "StudentDismissal-Academic.md",
-        "StudentDismissal.md",
-        "StudentDismissal-Behavioral.md"
+        "Cheating-Examples.md",
+        "StudentDismissal-Behavioral.md",
+        "StudentDismissal.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
@@ -174,17 +174,17 @@
       "topic": "cheating",
       "question": "Why should a student not look at others' code before completing their own work?",
       "ground_truth": "Looking at others' code before completing your own work locks you into thinking about the problem in the way you have already seen it done, and parts of the other person's code will likely stick in your memory and wind up in your own codebase, which qualifies as plagiarism.",
-      "generated": "You should not look at others' code before completing your own work because it constitutes cheating and plagiarism. If you view another student's code before writing your own, parts of it may stick in your memory and end up in your codebase, which is considered plagiarism. Additionally, seeing how others have solved a problem can limit your own thinking process.",
+      "generated": "You should not look at others' code for inspiration until after you have completed your own work and are sure you understand the concepts. If you read it before writing your own version, you are cheating. It will also lock you into thinking about the problem in a way you've already seen, and parts of that code may end up in your own work, which is plagiarism.",
       "sources": [
         "Cheating-Overview.md",
         "Cheating-Examples.md",
-        "CurriculumFAQ2.md",
-        "CurriculumFAQ.md",
-        "LiveCoding.md"
+        "ProjectScoring-GitHub.md",
+        "ProjectScoring.md",
+        "TechnicalWriting.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer accurately reflects the ground truth by explaining that looking at others' code can lead to plagiarism and limit one's thinking process.",
+      "reasoning": "The generated answer accurately reflects the ground truth, explaining that looking at others' code can lead to plagiarism and limit original thought, while also directly answering the question about why students shouldn't do so before completing their own work.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -192,17 +192,17 @@
       "topic": "campus_transfers",
       "question": "What are the conditions required to transfer to another campus during the foundational program?",
       "ground_truth": "A campus transfer during the foundational part of the program requires an 80% trimester average or higher, and the transfer must take place during the break.",
-      "generated": "To transfer to another campus during the foundational program, you must meet the following conditions:\n*   Have an 80% trimester average or higher.\n*   The transfer must take place during a break.\n\nIf you wish to complete your specialization at another campus, you should speak with your campus director.",
+      "generated": "To transfer to another campus during the foundational program, you must meet the following conditions:\n*   Have an 80% trimester average or higher.\n*   The transfer must take place during a break between trimesters.\n*   The transfer must be to a campus that offers the foundational program.",
       "sources": [
         "CampusTransfers.md",
         "StudentTransfers.md",
+        "SpecializationValidation-Criteria.md",
         "StudentTransfers-FAQ.md",
-        "StudentDismissal-Behavioral.md",
-        "AcademicStanding.md"
+        "Specializations.md"
       ],
-      "faithfulness": 5,
+      "faithfulness": 4,
       "relevance": 5,
-      "reasoning": "The generated answer accurately reflects the conditions for campus transfer during the foundational program as stated in the ground truth, and also correctly addresses the additional, albeit supplementary, information about specialization transfers.",
+      "reasoning": "The generated answer accurately reflects the conditions for campus transfer mentioned in the ground truth but adds an unverified condition about the destination campus offering the foundational program.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -210,17 +210,17 @@
       "topic": "campus_transfers",
       "question": "How can a student complete their specialization at another campus?",
       "ground_truth": "If a student would like to complete their specialization at another campus, they should speak with their campus director who will help them explore options.",
-      "generated": "To complete your specialization at another campus, you should speak with your campus director. They can help you explore options. If you want to do your full-time studies remotely while working at another Holberton campus, let them know, and they will see what can be done.",
+      "generated": "To complete your specialization at another campus, please speak with your campus director. They will help you explore options.",
       "sources": [
-        "CampusTransfers.md",
-        "Specializations-FAQ.md",
         "SpecializationValidation-Criteria.md",
+        "CampusTransfers.md",
+        "SpecializationValidation.md",
         "Specializations.md",
-        "SpecializationValidation.md"
+        "Specializations-FAQ.md"
       ],
-      "faithfulness": 4,
-      "relevance": 4,
-      "reasoning": "The generated answer accurately reflects the core instruction from the ground truth, but introduces an unsupported claim about remote full-time studies at another campus.",
+      "faithfulness": 5,
+      "relevance": 5,
+      "reasoning": "The generated answer perfectly matches the ground truth and directly answers the question about completing a specialization at another campus.",
       "judge_model": "gemini-2.5-flash-lite"
     },
     {
@@ -228,18 +228,18 @@
       "topic": "project_scoring",
       "question": "How is a project's overall score calculated?",
       "ground_truth": "The overall project score is calculated as: Overall Score = 100% x Points Earned / Total Points Available. All checks are pass/fail — a passed check receives full points while a failed check receives 0 points.",
-      "generated": "A project's overall score is calculated based on the number of points earned out of the total points available. Each task within a project has multiple checks, and these checks are graded on a pass/fail basis. A passed check receives full points, while a failed check receives zero points. The project grade is then determined by the sum of points earned from all checks divided by the total possible points, expressed as a percentage.\n\nFor projects with both mandatory and advanced tasks, the overall score can reach up to 200%. The advanced task score is weighted by the mandatory task score, meaning a lower score on mandatory tasks will negatively impact the advanced score's contribution.\n\nIn team projects, a contribution score, based on commits and lines added/deleted, acts as a weight on the overall project grade. Significant discrepancies in contribution among teammates can reduce this score.\n\nAdditionally, each project has a weight that determines how many times its score is counted towards a student's overall grade.",
+      "generated": "A project's overall score is calculated based on the performance of its tasks. Each task has multiple checks, and these checks are pass/fail. The project grade is determined by the total points earned from passed checks compared to the total points available.\n\nAdditionally, some projects have mandatory and advanced tasks. The advanced tasks are optional and scored separately out of 100%, but this score is weighted by the mandatory score. The total possible grade for such a project can reach 200%.\n\nFor team projects, a contribution score is calculated based on individual teammate commits and lines added/deleted. This contribution score then acts as a weight on the overall project grade.",
       "sources": [
-        "ProjectScoring.md",
-        "ProjectScoring-TaskLevel.md",
         "ProjectScoring-Contribution.md",
         "ProjectScoring-Grades.md",
-        "ProjectScoring-FAQ2.md"
+        "ProjectScoring.md",
+        "ProjectScoring-TaskLevel.md",
+        "ProjectScoring-OptionalProjects.md"
       ],
-      "faithfulness": 3,
-      "relevance": 3,
-      "reasoning": "The generated answer accurately describes the basic calculation but includes additional information about advanced tasks, team projects, and project weights that were not present in the ground truth, making it only partially faithful and relevant.",
-      "judge_model": "gemini-2.5-flash-lite"
+      "faithfulness": 2,
+      "relevance": 4,
+      "reasoning": "The generated answer accurately describes the core calculation components but includes significant details about advanced task scoring and team project contributions that are not present in the provided ground truth, thus being unsupported claims, while still mostly addressing the question.",
+      "judge_model": "gemini-2.5-flash"
     },
     {
       "id": "eval_012",
@@ -248,15 +248,15 @@
       "ground_truth": "Manual QA reviews must be completed within 1 week of the first deadline, otherwise 0 points will be given for all tasks requiring such a review. It is the student's responsibility to ensure Manual QA reviews are completed before the deadline.",
       "generated": "Manual QA reviews must be completed within 1 week of the project's first deadline.",
       "sources": [
-        "ProjectScoring.md",
-        "ChiefFeedbackOfficerDuty.md",
         "ProjectScoring-Regrades.md",
+        "ProjectScoring.md",
+        "ProjectScoring-GitHub.md",
         "ProjectScoring-Checker.md",
-        "ProjectScoring-GitHub.md"
+        "ProjectScoring-FAQ.md"
       ],
-      "faithfulness": 4,
+      "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer accurately provides the deadline from the ground truth, with a minor addition ('project's') not explicitly present, and directly answers the question.",
+      "reasoning": "The generated answer precisely states the deadline for Manual QA reviews as found in the ground truth and directly addresses the question.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -264,17 +264,17 @@
       "topic": "project_scoring",
       "question": "What does the Checker do and how often do its checks change?",
       "ground_truth": "The Checker is Holberton's Correction System used to score all Auto QA reviews. The checks are randomized between students and change every 24 hours.",
-      "generated": "The Checker (Holberton’s Correction System) is used to score all Auto QA reviews and allows students to check if their code is passing all of the checks for a task. It does not tell students what is wrong with their code but helps determine if their code passes the grading checks. The checks are randomized between students and change every 24 hours.",
+      "generated": "The Checker (Holberton’s Correction System) is used to score all Auto QA reviews. It helps students determine if their code is passing the checks used to grade their project. The checks are randomized between students and change every 24 hours.",
       "sources": [
         "ProjectScoring-Checker.md",
-        "CurriculumFAQ.md",
         "ProjectScoring-BrokenChecker.md",
+        "ProjectScoring-Regrades.md",
         "ProjectScoring-CheckTypes.md",
-        "ChiefOfficerDuties.md"
+        "ProjectScoring.md"
       ],
-      "faithfulness": 5,
+      "faithfulness": 4,
       "relevance": 5,
-      "reasoning": "The generated answer completely and accurately describes both what the Checker does and how often its checks change, with no contradictions to the ground truth.",
+      "reasoning": "The generated answer fully addresses both parts of the question with accurate information, but includes a minor additional detail about student assistance not explicitly stated in the ground truth.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -282,17 +282,17 @@
       "topic": "evaluation_quizzes",
       "question": "How is the score for an evaluation quiz calculated?",
       "ground_truth": "Evaluation quiz scoring gives 1 point for a correct answer, 0.5 points for an 'I don't know' answer, and 0 points for a wrong answer. The system also tracks time spent outside the quiz page and lowers the final grade by 1% for every 10 seconds spent outside.",
-      "generated": "The score for an evaluation quiz is calculated as follows:\n*   1 point for a correct answer.\n*   0.5 points for an \"I don't know\" answer.\n*   0 points for a wrong answer.\n\nAdditionally, the final quiz grade is affected by:\n*   A 1% reduction for every 10 seconds the student spends outside the quiz page.\n*   A lowered maximum score if the quiz is started outside the release window (e.g., 65% maximum if started an hour late, 60% maximum if started the day after).",
+      "generated": "The score for an evaluation quiz is calculated as follows:\n*   1 point for a correct answer.\n*   0.5 points for an \"I don't know\" answer.\n*   0 points for a wrong answer.\n\nAdditionally, penalties may be applied:\n*   The final quiz grade will be lowered by 1% for every 10 seconds the student spends outside the quiz page.\n*   The maximum possible score of the quiz is lowered if it is started outside the allotted hour window when the Software Engineer releases it (e.g., 65% if started over an hour late, 60% if done the day after).",
       "sources": [
         "EvaluationQuizScoring.md",
         "EvaluationQuizzes.md",
         "ProjectScoring.md",
-        "ProjectScoring-TaskLevel.md",
-        "ProjectScoring-Contribution.md"
+        "ProjectScoring-Grades.md",
+        "ProjectScoring-TaskLevel.md"
       ],
-      "faithfulness": 3,
+      "faithfulness": 2,
       "relevance": 5,
-      "reasoning": "The generated answer completely addresses the question, but includes one significant detail about maximum score reduction for late starts that is not supported by the ground truth.",
+      "reasoning": "The generated answer accurately includes all details from the ground truth regarding score calculation, but it adds a significant unsupported claim about penalties for starting the quiz late.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -300,17 +300,17 @@
       "topic": "evaluation_quizzes",
       "question": "What is the maximum score available if a student starts a quiz the day after it is released?",
       "ground_truth": "If a quiz is done the day after it is released, the maximum score available is 60%.",
-      "generated": "If the quiz is done the day after it is released, the maximum score available is 60%.",
+      "generated": "If a quiz is done the day after it is released, the maximum score available is 60%.",
       "sources": [
         "EvaluationQuizScoring.md",
-        "ProjectScoring-Regrades.md",
-        "ProjectScoring-TaskLevel.md",
-        "ProjectScoring-FAQ2.md",
-        "ProjectScoring.md"
+        "ProfessionalTrack-PTO.md",
+        "ProjectScoring.md",
+        "EvaluationQuizzes.md",
+        "ProjectScoring-OptionalProjects.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer is an exact match to the ground truth, making it completely accurate and directly answering the question.",
+      "reasoning": "The generated answer is identical to the ground truth and directly answers the question completely and accurately.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -318,17 +318,17 @@
       "topic": "mock_interviews",
       "question": "Why are mock interviews mandatory at Holberton?",
       "ground_truth": "Mock interviews are mandatory because technical interviews for software engineering positions are draining intellectually, emotionally, and physically. Students need to be able to clearly communicate their thought process despite pressure, stress, and exhaustion, and this stamina requires consistent practice.",
-      "generated": "Holberton School's mock interviews are mandatory because they help students train for technical interviews, which can be intellectually, emotionally, and physically draining. They simulate real-world technical interviews to help students develop the stamina and ability to clearly communicate their thought process and understanding under pressure, stress, and exhaustion. This consistent practice is necessary because this type of stamina is not developed overnight.",
+      "generated": "Mock interviews are mandatory because technical interviews for software engineering positions are intellectually, emotionally, and physically draining, often lasting upwards of 8 hours. Students need to be able to clearly communicate their thought process and understanding despite pressure, stress, and exhaustion. This stamina requires consistent practice, and regular, increasingly difficult mock interviews simulate real-world technical interviews to ensure students are ready.",
       "sources": [
         "MockInterviews.md",
         "MockInterviews-FAQ.md",
-        "MockInterviews-Scripts.md",
-        "MockInterviews-Pairing.md",
-        "MockInterviews-Process.md"
+        "Events-FiresideChats.md",
+        "HackDay.md",
+        "MockInterviews-Help.md"
       ],
-      "faithfulness": 5,
+      "faithfulness": 4,
       "relevance": 5,
-      "reasoning": "The generated answer completely and accurately explains why mock interviews are mandatory, directly addressing the question with information fully consistent with the ground truth.",
+      "reasoning": "The generated answer fully explains why mock interviews are mandatory as per the ground truth, with only minor non-contradictory embellishments not explicitly present in the provided source.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -336,17 +336,17 @@
       "topic": "mock_interviews",
       "question": "What happens if a student's interviewer is 5 minutes late to a mock interview?",
       "ground_truth": "If the interviewer is 5 minutes late, both students will swap places — the interviewee will become the interviewer, and will be the interviewee later in the day.",
-      "generated": "If your interviewer is 5 minutes late, you both will swap places: you will become the interviewer, and you will be the interviewee later in the day.",
+      "generated": "If your interviewer is 5 minutes late, you will both swap places. You will become the interviewer, and your partner will become the interviewee later on in the day.",
       "sources": [
-        "MockInterviews-Pairing.md",
         "MockInterviews-FAQ.md",
-        "MockInterviews-Help.md",
+        "MockInterviews-Pairing.md",
         "MockInterviews-Scripts.md",
-        "MockInterviews.md"
+        "MockInterviews-Process.md",
+        "MockInterviews-Help.md"
       ],
-      "faithfulness": 5,
+      "faithfulness": 2,
       "relevance": 5,
-      "reasoning": "The generated answer completely and accurately conveys the information from the ground truth, directly answering the question.",
+      "reasoning": "The answer correctly states that roles swap and the interviewee becomes the interviewer, but incorrectly assigns the later interviewee role to the partner (original interviewer) instead of the original interviewee, which is a factual inaccuracy.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -354,17 +354,17 @@
       "topic": "peer_learning",
       "question": "What are the hours and attendance rules for Peer Learning Days?",
       "ground_truth": "PLDs are mandatory on-site days from 9:00 AM to 3:00 PM. If a student cannot be present or on time, they must use a PTO.",
-      "generated": "Peer Learning Days (PLDs) are mandatory on-site days from 9:00 AM to 3:00 PM. If a student cannot be present or on time, they must use a Personal Time Off (PTO).",
+      "generated": "Peer Learning Days (PLDs) are mandatory on-site days from 9:00 AM to 3:00 PM.\n\nFor students in the **Foundations** (or Professional) Track:\n*   If you cannot be present or on time for a PLD, you must use a Personal Time Off (PTO).\n*   PTOs are allotted per trimester, and details on their usage (half-day, full-day, unscheduled) and the consequences of exceeding your allotment are outlined in the PTO policy.\n\nFor students in **Specializations**:\n*   Although attendance and campus participation are highly encouraged, there are no PTOs for Specializations.\n*   Accrued participation in Mock Interviews and Peer Learning Days results in interview practice with staff and advisors.",
       "sources": [
         "PeerLearningDays.md",
+        "Specializations.md",
+        "WeekZero.md",
         "ProfessionalTrack-PTO.md",
-        "EvaluationQuizzes.md",
-        "OfficeHours.md",
-        "Roundtables.md"
+        "TheFramework.md"
       ],
-      "faithfulness": 5,
+      "faithfulness": 2,
       "relevance": 5,
-      "reasoning": "The generated answer is completely accurate and directly answers both the hours and attendance rules for Peer Learning Days as provided in the ground truth.",
+      "reasoning": "The answer accurately provides the hours and attendance rules for the Foundations track, but introduces a direct contradiction regarding PTO usage for Specializations compared to the general rule stated in the ground truth, while still completely addressing all aspects of the question.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -372,17 +372,17 @@
       "topic": "peer_learning",
       "question": "When are laptops and screens allowed during a Peer Learning Day?",
       "ground_truth": "No laptops, tablets, or screens are allowed until all tasks have been whiteboarded and understood by the entirety of the group. After that, students may return to computers to pair or group program.",
-      "generated": "Laptops and screens are allowed during a Peer Learning Day only after all tasks have been whiteboarded and understood by the entirety of the group. After this initial whiteboarding and collaborative discussion, students may return to computers for pair or group programming.",
+      "generated": "Laptops, tablets, or screens are not allowed until all tasks have been whiteboarded and understood by the entirety of the group. After this, students may return to computers for pair or group programming.",
       "sources": [
         "PeerLearningDays.md",
-        "Cheating-Examples.md",
-        "EvaluationQuizzes.md",
-        "TheFramework.md",
-        "ComputerandInternetUsagePolicy.md"
+        "WeekZero.md",
+        "ComputerandInternetUsagePolicy.md",
+        "Specializations.md",
+        "TheFramework.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer perfectly aligns with the ground truth, stating the exact conditions under which laptops and screens are allowed, thereby directly and completely answering the question.",
+      "reasoning": "The generated answer is completely accurate to the ground truth and directly answers the question by specifying when screens are not allowed and when they are permitted.",
       "judge_model": "gemini-2.5-flash"
     },
     {
@@ -390,17 +390,17 @@
       "topic": "specializations",
       "question": "What specializations are available to students after completing Foundations?",
       "ground_truth": "After completing Foundations, students can choose from Machine Learning, AR/VR, Low-Level and Algorithms, or Full-Stack Web Development.",
-      "generated": "After completing the Foundations, students can choose from the following specializations:\n*   Machine learning\n*   AR/VR\n*   Low-Level and algorithms\n*   Full-Stack Web Development",
+      "generated": "After completing the Foundations program, students can choose from the following specializations:\n*   Machine learning\n*   AR/VR\n*   Low-Level & Algorithms\n*   Full-Stack Web Development",
       "sources": [
         "Specializations.md",
         "SpecializationValidation-Criteria.md",
-        "Specializations-FAQ.md",
-        "Specializations-FAQ4.md",
-        "Specializations-FAQ1.md"
+        "Specializations-FAQ1.md",
+        "SpecializationValidation.md",
+        "Specializations-FAQ.md"
       ],
       "faithfulness": 5,
       "relevance": 5,
-      "reasoning": "The generated answer is completely accurate and directly provides all the requested specializations, perfectly matching the ground truth and fully addressing the question.",
+      "reasoning": "The generated answer is completely accurate, directly lists all specializations from the ground truth, and fully answers the question asked.",
       "judge_model": "gemini-2.5-flash"
     }
   ]
